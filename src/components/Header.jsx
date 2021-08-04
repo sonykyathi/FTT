@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-
+import { Link } from 'react-router-dom';
 const Header = props => {
     return (
         <div className="head-hero-wrapper banner-bg">
@@ -41,6 +41,31 @@ const Header = props => {
                     <button type="button" className="btn-style-md btn-white-outline">Contact Us</button>
                   </div>
                 </div>
+                {/* <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul className="navbar-nav ml-auto">
+                    <li className="nav-item active">
+                      <Link to="home" className="nav-link">Home</Link>
+                    </li>
+                    <li className="nav-item">
+                      <Link to="/products" className="nav-link">Products</Link>
+                    </li>
+                    <li className="nav-item">
+                      <Link to="/features" className="nav-link">Our Services</Link>
+                    </li>
+                    <li className="nav-item">
+                      <a className="nav-link" href="#techLink">Technology</a>
+                    </li>
+                    <li className="nav-item">
+                      <Link to="/roadmap" className="nav-link">Roadmap</Link>
+                    </li>
+                    <li className="nav-item">
+                      <Link to="/about" className="nav-link">About Us</Link>
+                    </li>
+                  </ul>
+                  <div className="head-btn wow fadeInUp" data-wow-delay="0.65s">
+                    <button type="button" className="btn-style-md btn-white-outline">Contact Us</button>
+                  </div>
+                </div> */}
               </nav>
             </div>
           </div>
