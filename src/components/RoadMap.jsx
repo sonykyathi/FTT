@@ -4,10 +4,10 @@ import PropTypes from 'prop-types'
 const RoadMap = props => {
     return (
         // Roadmap Code Start
-        <section className="roadmap-wrapper section-gap-140">
+        <section className="roadmap-wrapper gredient-bg poly-bg section-gap-140">
           <div className="container" id="roadmapLink">
             <div className="roadmap-content">
-              <div className="section-title-md text-center wow fadeInUp" data-wow-delay="0.10s">
+              <div className="section-title-md white text-center wow fadeInUp" data-wow-delay="0.10s">
                 <h3>Roadmap</h3>
                 <p>sed do eiusmod tempor incididunt ut labore</p>
               </div>
@@ -24,7 +24,7 @@ const RoadMap = props => {
                     </div>
                   </li>
                   <li>
-                    <h4 className="timeline-date">5 June, 2021</h4>
+                    <h4 className="timeline-date">5 Aug, 2021</h4>
                     <div className="timeline-check-circle"><i className="fa fa-check" aria-hidden="true"></i></div>
                     <div className="timeline-card">
                       <div className="timeline-card-logo"><img src="theme-assets/images/tl-logo-02.png" className="img-fluid" alt=""/></div>
@@ -33,7 +33,7 @@ const RoadMap = props => {
                     </div>
                   </li>
                   <li>
-                    <h4 className="timeline-date">19 June, 2021</h4>
+                    <h4 className="timeline-date">5 Sep, 2021</h4>
                     <div className="timeline-check-circle"><i className="fa fa-check" aria-hidden="true"></i></div>
                     <div className="timeline-card">
                       <div className="timeline-card-logo"><img src="theme-assets/images/tl-logo-03.png" className="img-fluid" alt=""/></div>
@@ -42,7 +42,7 @@ const RoadMap = props => {
                     </div>
                   </li>
                   <li>
-                    <h4 className="timeline-date">03 July, 2021</h4>
+                    <h4 className="timeline-date">20 Sep, 2021</h4>
                     <div className="timeline-check-circle"><i className="fa fa-check" aria-hidden="true"></i></div>
                     <div className="timeline-card">
                       <div className="timeline-card-logo"><img src="theme-assets/images/tl-logo-04.png" className="img-fluid" alt=""/></div>
@@ -51,7 +51,7 @@ const RoadMap = props => {
                     </div>
                   </li>
                   <li>
-                    <h4 className="timeline-date">07 July, 2021</h4>
+                    <h4 className="timeline-date">13 Oct, 2021</h4>
                     <div className="timeline-check-circle"><i className="fa fa-check" aria-hidden="true"></i></div>
                     <div className="timeline-card">
                       <div className="timeline-card-logo"><img src="theme-assets/images/tl-logo-05.png" className="img-fluid" alt=""/></div>

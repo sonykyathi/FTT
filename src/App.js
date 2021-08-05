@@ -1,53 +1,26 @@
 import "./App.css";
-import Header from "./components/Header";
-import Benifits from "./components/Benifits";
-import Products from "./components/Products";
-import Features from "./components/Features";
-import RoadMap from "./components/RoadMap";
-import Team from "./components/Team";
-import ContactUs from "./components/ContactUs";
-import Footer from "./components/Footer";
+
 import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
-import { Fragment } from "react";
+import React, { Fragment } from "react";
+
+import HomePage from "./components/home";
+import AboutusPage from "./components/pages/aboutus";
+import galleryPage from "./components/pages/gallery";
+import faqPage from "./components/pages/faq";
 
 function App() {
   return (
-    // <Router>
-    //   <Fragment>
-    //     <Header />
-    //     <Switch>
-    //       <Route path="/benifits">
-    //         <Benifits />
-    //       </Route>
-    //       <Route path="/products">
-    //         <Products />
-    //       </Route>
-    //       <Route path="/features">
-    //         <Features />
-    //       </Route>
-    //       <Route path="/roadmap">
-    //         <RoadMap />
-    //       </Route>
-    //       <Route path="/team">
-    //         <Team />
-    //       </Route>
-    //       <Route path="/contact">
-    //         <ContactUs />
-    //       </Route>
-    //     </Switch>
-    //     <Footer />
-    //   </Fragment>
-    // </Router>
-    <Fragment>
-      <Header />
-      <Benifits />
-      <Products />
-      <Features />
-      <RoadMap />
-      <Team />
-      <ContactUs />
-      <Footer />
-    </Fragment>
+    <React.Fragment>
+      
+      <Router>
+        <Route exact path='/' component={HomePage} />
+        <Route exact path='/aboutus' component={AboutusPage} />
+        <Route exact path='/gallery' component={galleryPage} />
+        <Route exact path='/faq' component={faqPage} />
+
+        
+      </Router>
+    </React.Fragment>
   );
 }
 

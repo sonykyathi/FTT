@@ -11,8 +11,8 @@ const Footer = props => {
               <div className="row">
                 <div className="col-xl-7 col-lg-7 col-md-12 col-sm-12 col-12">
                   <div className="newsletter-content wow fadeInLeft" data-wow-delay="0.10s">
-                    <h3>Join us today!</h3>
-                    <p>Buy your cryptocurrency today to begin using the future of money.</p>
+                    <h3>Today’s investment</h3> 
+                    <p>in FTT is the future towards stability of your digital money.</p>
                   </div>
                 </div>
                 <div className="col-xl-5 col-lg-5 col-md-12 col-sm-12 col-12">
@@ -34,7 +34,7 @@ const Footer = props => {
                       <img src="theme-assets/images/logo-white.png" className="img-fluid" alt=""/>
                     </div>
                     <p>Despite being volatile, decentralised token like DEFItt has turned investors, millionaires, to billionaires ‘overnight, creating these opportunities, due to its volatility and the ability for traders to look for opportunities in the market.</p>
-                    <a href="javascript:void(0);" className="footer-support-link">support.ftt.com</a>
+                    <a href="mailto:info@ftttoken.com" className="footer-support-link">info@ftttoken.com</a>
                   </div>
                 </div>
                 <div className="col-xl-9 col-lg-9 col-md-12 col-sm-12 col-12">
@@ -51,21 +51,20 @@ const Footer = props => {
                       </ul>
                       <ul className="footer-links-card wow fadeInUp" data-wow-delay="0.10s">
                         <li className="footer-links-title">Informations</li>
-                        <li><a href="javascript:void(0);">Terms of use</a></li>
+                        <li><a href="/faq" target="_blank">FAQ</a></li>
                         <li><a href="javascript:void(0);">Privacy policy</a></li>
                         <li><a href="javascript:void(0);">Supported country</a></li>
-                        <li><a href="javascript:void(0);">Developer Platform</a></li>
+                        {/* <li><a href="javascript:void(0);">Developer Platform</a></li> */}
                         <li><a href="javascript:void(0);">Blog</a></li>
                       </ul>
-                      <ul className="footer-links-card wow fadeInUp" data-wow-delay="0.10s">
+                      {/* <ul className="footer-links-card wow fadeInUp" data-wow-delay="0.10s">
                         <li className="footer-links-title">Learn</li>
                         <li><a href="javascript:void(0);">Buy Bitcoin</a></li>
                         <li><a href="javascript:void(0);">Buy Bitcoin Cash</a></li>
                         <li><a href="javascript:void(0);">Buy Ethereum</a></li>
                         <li><a href="javascript:void(0);">Buy Litecoin</a></li>
-                        <li><a href="javascript:void(0);">Supported countries</a></li>
                         <li><a href="javascript:void(0);">Status</a></li>
-                      </ul>
+                      </ul> */}
                       <ul className="footer-links-card social-links-ul wow fadeInUp" data-wow-delay="0.10s">
                         <li className="footer-links-title">Contact & Follow</li>
                         <li><a href="javascript:void(0);">Help Center</a></li>

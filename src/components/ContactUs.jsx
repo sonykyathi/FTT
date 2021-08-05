@@ -16,7 +16,7 @@ const ContactUs = props => {
                   <li>
                     <div className="cd-content">
                       <h4>Call Us</h4>
-                      <p>+4 0000 00000 00</p>
+                      <p>0800 041 8812</p>
                     </div>
                     <div className="cd-icon">
                       <img src="theme-assets/images/cd-01.svg" className="img-fluid" alt=""/>
@@ -43,7 +43,8 @@ const ContactUs = props => {
                   <li>
                     <div className="cd-content">
                       <h4>Open Hours</h4>
-                      <p>Monday - Friday,<br/>9:00AM - 05:00PM</p>
+                      <p>24/7</p>
+                      {/* <p>Monday - Friday,<br/>9:00AM - 05:00PM</p> */}
                     </div>
                     <div className="cd-icon">
                       <img src="theme-assets/images/cd-04.svg" className="img-fluid" alt=""/>
