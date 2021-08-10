@@ -28,16 +28,16 @@ const Footer = props => {
             {/* Footer Links Code Start  */}
             <div className="footer-content">
               <div className="row">
-                <div className="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12">
+                <div className="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
                   <div className="footer-about wow fadeInUp" data-wow-delay="0.10s">
                     <div className="footer-logo">
                       <img src="theme-assets/images/logo-white.png" className="img-fluid" alt=""/>
                     </div>
-                    <p>Despite being volatile, decentralised token like DEFItt has turned investors, millionaires, to billionaires ‘overnight, creating these opportunities, due to its volatility and the ability for traders to look for opportunities in the market.</p>
+                    <p>Financial Tech Token-FTT is a buy, sell, store and earn enabler. It is run on Binance Smart Chain, which adheres to the BEP-20 standard, being pegged to real-world assets the US dollar, FTT avoids the price volatility of cryptocurrency trading markets. It maintains price stability with an advantageous transactional speed. FTT provides prompt processing, anonymity, and protection since it runs on the Binance blockchain.</p>
                     <a href="mailto:info@ftttoken.com" className="footer-support-link">info@ftttoken.com</a>
                   </div>
                 </div>
-                <div className="col-xl-9 col-lg-9 col-md-12 col-sm-12 col-12">
+                <div className="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12">
                   <div className="row">
                     <div className="useful-links">
                       <ul className="footer-links-card wow fadeInUp" data-wow-delay="0.10s">

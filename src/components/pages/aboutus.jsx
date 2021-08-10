@@ -8,7 +8,7 @@ export default function AboutusPage() {
         <React.Fragment>
             <HeaderNavbar/>
             <div className="cms-content-area">
-                <h1 className="text-center">About us page<br/>Comming Soon</h1>
+                <h1 className="text-center">About us page<br/>Coming Soon</h1>
             </div>
             <Footer />
         </React.Fragment>

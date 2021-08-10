@@ -9,7 +9,7 @@ const Benifits = props => {
       <div className="benefit-content white-card">
         <div className="section-title-md text-center wow fadeInDown" data-wow-delay="0.10s">
           <h3>Vital features and benefits</h3>
-          <p>Get the benefit of a stablecoin that combines the US dollar's trustworthiness, which is paired to Defitt to minimise the risk of investors in crypto market Volatility. nCreating reliability & trust in digital assets</p>
+          <p>Get the benefit of a stablecoin that combines the US dollar's trustworthiness, which is paired to Defitt to minimise the risk of investors in crypto market Volatility and Creating reliability & trust in digital assets</p>
         </div>
         <div className="row">
           <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">

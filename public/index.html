@@ -35,28 +35,40 @@
       new WOW().init();
    </script>
    <script>
-     window.onscroll = function() {myFunction()};
+    $(document).ready(function(){
+      window.onscroll = function() {headerFixer()};
 
-     var header = document.getElementById("fttHead");
-     var sticky = header.offsetTop;
+      var header = document.getElementById("fttHead");
+      var sticky = header.offsetTop;
 
-     function myFunction() {
-       if (window.pageYOffset > 80) {
-         header.classList.add("sticky");
-       } else {
-         header.classList.remove("sticky");
-       }
-     }
+      function headerFixer() {
+        if (window.pageYOffset > 80) {
+          header.classList.add("sticky");
+        } else {
+          header.classList.remove("sticky");
+        }
+      }
+    });
    </script>
    <script>
      $(document).ready(function(){
-         $(".arrow__prev").click(function(){
-             $("#fttTimeline").animate({scrollLeft: "-="+245});
-         });
-         $(".arrow__next").click(function(){
-             $("#fttTimeline").animate({scrollLeft: "+="+245});
-         });        
+        $(".arrow__prev").click(function(){
+            $("#fttTimeline").animate({scrollLeft: "-="+245});
+        });
+        $(".arrow__next").click(function(){
+            $("#fttTimeline").animate({scrollLeft: "+="+245});
+        });        
      });
+
+     $(document).ready(function(){
+        $(".arrow__prev2").click(function(){
+            $("#productCard").animate({scrollLeft: "-="+340});
+        });
+        $(".arrow__next2").click(function(){
+            $("#productCard").animate({scrollLeft: "+="+340});
+        });        
+     });
+
    </script>
    <script>
      $("#navbarSupportedContent").find("a").click(function(e) {

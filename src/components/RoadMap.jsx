@@ -18,7 +18,7 @@ const RoadMap = props => {
                     <h4 className="timeline-date">5 June, 2021</h4>
                     <div className="timeline-check-circle"><i className="fa fa-check" aria-hidden="true"></i></div>
                     <div className="timeline-card">
-                      <div className="timeline-card-logo"><img src="theme-assets/images/tl-logo-01.png" className="img-fluid" alt=""/></div>
+                      <div className="timeline-card-logo"><img src="theme-assets/images/timeline/defi-play.png" className="img-fluid" alt=""/></div>
                       <h3 className="timeline-card-title">Defittplay</h3>
                       <p className="timeline-card-detail">Lets make some noise together.</p>
                     </div>
@@ -27,7 +27,7 @@ const RoadMap = props => {
                     <h4 className="timeline-date">5 Aug, 2021</h4>
                     <div className="timeline-check-circle"><i className="fa fa-check" aria-hidden="true"></i></div>
                     <div className="timeline-card">
-                      <div className="timeline-card-logo"><img src="theme-assets/images/tl-logo-02.png" className="img-fluid" alt=""/></div>
+                      <div className="timeline-card-logo"><img src="theme-assets/images/timeline/defi-startup.png" className="img-fluid" alt=""/></div>
                       <h3 className="timeline-card-title">Defistartup</h3>
                       <p className="timeline-card-detail">Lets Bridge the gap.</p>
                     </div>
@@ -36,7 +36,7 @@ const RoadMap = props => {
                     <h4 className="timeline-date">5 Sep, 2021</h4>
                     <div className="timeline-check-circle"><i className="fa fa-check" aria-hidden="true"></i></div>
                     <div className="timeline-card">
-                      <div className="timeline-card-logo"><img src="theme-assets/images/tl-logo-03.png" className="img-fluid" alt=""/></div>
+                      <div className="timeline-card-logo"><img src="theme-assets/images/timeline/defi-tradx.png" className="img-fluid" alt=""/></div>
                       <h3 className="timeline-card-title">Defitradx</h3>
                       <p className="timeline-card-detail">Lets trade with the wise asset - FIT.</p>
                     </div>
@@ -45,7 +45,7 @@ const RoadMap = props => {
                     <h4 className="timeline-date">20 Sep, 2021</h4>
                     <div className="timeline-check-circle"><i className="fa fa-check" aria-hidden="true"></i></div>
                     <div className="timeline-card">
-                      <div className="timeline-card-logo"><img src="theme-assets/images/tl-logo-04.png" className="img-fluid" alt=""/></div>
+                      <div className="timeline-card-logo"><img src="theme-assets/images/timeline/defi-kampus.png" className="img-fluid" alt=""/></div>
                       <h3 className="timeline-card-title">Defi Kampus</h3>
                       <p className="timeline-card-detail">Let the future educate you with the technology.</p>
                     </div>
@@ -54,7 +54,7 @@ const RoadMap = props => {
                     <h4 className="timeline-date">13 Oct, 2021</h4>
                     <div className="timeline-check-circle"><i className="fa fa-check" aria-hidden="true"></i></div>
                     <div className="timeline-card">
-                      <div className="timeline-card-logo"><img src="theme-assets/images/tl-logo-05.png" className="img-fluid" alt=""/></div>
+                      <div className="timeline-card-logo"><img src="theme-assets/images/timeline/defi-nirvaana.png" className="img-fluid" alt=""/></div>
                       <h3 className="timeline-card-title">Defi Nirvaana</h3>
                       <p className="timeline-card-detail">Your health is your wealth, use it wise with FTT.</p>
                     </div>
@@ -63,7 +63,7 @@ const RoadMap = props => {
                     <h4 className="timeline-date">5 June, 2021</h4>
                     <div className="timeline-check-circle"><i className="fa fa-check" aria-hidden="true"></i></div>
                     <div className="timeline-card">
-                      <div className="timeline-card-logo"><img src="theme-assets/images/tl-logo-01.png" className="img-fluid" alt=""/></div>
+                      <div className="timeline-card-logo"><img src="theme-assets/images/timeline/defi-play.png" className="img-fluid" alt=""/></div>
                       <h3 className="timeline-card-title">Defittplay</h3>
                       <p className="timeline-card-detail">Lets make some noise together.</p>
                     </div>
