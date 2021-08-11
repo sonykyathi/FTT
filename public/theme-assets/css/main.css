@@ -930,7 +930,7 @@ a.see-more{
     box-shadow: 0px 0px 17.6px 2.4px transparent;
     border-radius: 10px;
     width: 230px;
-    height: 190px;
+    height: 200px;
     position: relative;
     padding: 15px 20px;
     transition: all 0.3s ease-in-out;
@@ -1340,38 +1340,44 @@ a.see-more{
 .footer-social-media>li{
     list-style: none;
     margin: 0;
-    margin-right: 6px;
-    display: inline-block;
-    vertical-align: middle;
+    margin-bottom: 16px;
+    display: block;
 }
-.footer-social-media>li:last-child{margin-right: 0;}
-.footer-social-media>li>a{
-    background: #FFFFFF;
-    border-radius: 25px;
-    width: 42px;
-    height: 42px;
-    text-decoration: none;
+.footer-social-media>li:last-child{margin-bottom: 0;}
+.footer-social-media>li{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
     transition: all 0.2s ease-in-out;
 }
-.footer-social-media>li>a>i{
-    font-size: 17px;
-    color: #7e7e8c;
+.footer-social-media>li>i{
+    flex: 0 0 18px;
+    font-size: 16px;
+    color: #FFFFFF;
     line-height: 15px;
-    margin: auto;
+    margin: 0;
+    margin-right: 10px;
     transition: all 0.2s ease-in-out;
 }
-.footer-social-media>li>a:hover,
+.footer-social-media>li>span>a{
+    display: block;
+    font-size: 15px;
+    color: #FFF;
+    font-weight: 500;
+    margin: 0;
+    margin-bottom: 5px;
+    text-decoration: none;
+}
+/* .footer-social-media>li>a:hover,
 .footer-social-media>li>a:focus{
-    background: #00afef;
+    color: #00afef;
 }
 .footer-social-media>li>a:hover>i,
 .footer-social-media>li>a:focus>i{
     color: #FFFFFF;
-}
+} */
 /* Footer Copyright Style */
 .copyright-bar{
     border-top: 1px solid rgb(255, 255, 255 , 20%);
@@ -1394,12 +1400,168 @@ a.see-more{
     height: 80px;
 }
 .inner-header .navbar.ftt-navbar {
-    padding: 12px 0;
+    padding: 12px 15px;
 }
 .cms-content-area{
     padding: 120px 0;
     min-height: 620px;
 }
+.cms-content{
+    margin-bottom: 120px;
+}
+.cms-heading{
+    margin-bottom: 60px;
+}
+.cms-heading h3{
+    font-size: 36px;
+    font-weight: 600;
+    color: #292930;
+    line-height: 27px;
+    margin-bottom: 0;
+}
+
+/* FAQ Page Style */
+.ftt-accordian{
+    margin-bottom: 60px;
+}
+.ftt-accordian .card{
+    margin-bottom: 10px;
+    border: 1px solid rgb(233, 248, 254);
+    background: none;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.ftt-accordian .card-header:first-child,
+.ftt-accordian .card-header {
+    border-radius: 0;
+    background: transparent;
+    border: none;
+    padding: 0 0;
+}
+.ftt-accordian .card-header h2{
+    margin: 0;
+    padding: 0;
+}
+.ftt-accordian .card-header h2>button.collapsed{
+    background: #f8fdff;
+    color: #292930;
+    text-align: left;
+}
+.ftt-accordian .card-header h2>button{
+    width: 100%;
+    background: #00afef;
+    border-radius: 0;
+    border: none;
+    outline: none;
+    padding: 15px 26px 15px 20px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #FFFFFF;
+    line-height: 20px;
+    margin: 0;
+    text-align: left;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+}
+.ftt-accordian .card-header h2>button.collapsed::after{
+    content: "\f107";
+    font-family: 'FontAwesome';
+    font-size: 22px;
+    color: #292930;
+    line-height: 8px;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%) rotate(0deg);
+    transition: all 0.3s ease-in-out;
+}
+.ftt-accordian .card-header h2>button::after{
+    content: "\f107";
+    font-family: 'FontAwesome';
+    font-size: 22px;
+    color: #292930;
+    line-height: 8px;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%) rotate(180deg);
+    color: #FFFFFF;
+}
+.ftt-accordian .card-body{
+    margin: 0;
+    padding: 0;
+}
+.ftt-accordian .card-body > p{
+    font-size: 16px;
+    font-weight: 500;
+    color: #979797;
+    line-height: 26px;
+    margin: 0;
+    padding: 10px 20px;
+}
+.text-bullets{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.text-bullets h5{
+    font-size: 18px;
+    color: #292930;
+    font-weight: 500;
+    line-height: 16px;
+}
+.text-bullets li{
+    list-style: disc;
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+    color: #979797;
+    line-height: 26px;
+    margin: 0;
+    margin-left: 15px;
+}
+
+/* About Us Page Style */
+.about-details h3{
+    font-size: 36px;
+    font-weight: 600;
+    color: #292930;
+    line-height: 27px;
+    margin-bottom: 7px;
+}
+.about-details p{
+    font-size: 16px;
+    font-weight: 500;
+    color: #b2b2b2;
+    line-height: 22px;
+    margin: auto;
+}
+.about-details span{
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+    color: #b2b2b2;
+    line-height: 18px;
+    margin: auto;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+.text-title{
+    font-size: 24px;
+    font-weight: 600;
+    color: #292930;
+    line-height: 22px;
+    margin-bottom: 8px;
+    margin-top: 30px;
+}
+.text-pera{
+    font-size: 16px;
+    font-weight: 500;
+    color: #b2b2b2;
+    line-height: 16px;
+    margin: auto;
+}
+
 
 
 /* ================================== Inner Pages Style End ================================== */

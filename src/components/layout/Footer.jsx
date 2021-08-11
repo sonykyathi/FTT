@@ -42,20 +42,21 @@ const Footer = props => {
                     <div className="useful-links">
                       <ul className="footer-links-card wow fadeInUp" data-wow-delay="0.10s">
                         <li className="footer-links-title">Company</li>
-                        <li><a href="javascript:void(0);">Home</a></li>
-                        <li><a href="javascript:void(0);">Products</a></li>
-                        <li><a href="javascript:void(0);">Our Services</a></li>
-                        <li><a href="javascript:void(0);">Technology</a></li>
-                        <li><a href="javascript:void(0);">Roadmap</a></li>
-                        <li><a href="javascript:void(0);">About us</a></li>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/">Products</a></li>
+                        <li><a href="/">Our Services</a></li>
+                        <li><a href="/">Technology</a></li>
+                        <li><a href="/">Roadmap</a></li>
+                        <li><a href="/aboutus">About us</a></li>
                       </ul>
                       <ul className="footer-links-card wow fadeInUp" data-wow-delay="0.10s">
                         <li className="footer-links-title">Informations</li>
                         <li><a href="/faq" target="_blank">FAQ</a></li>
                         <li><a href="javascript:void(0);">Privacy policy</a></li>
                         <li><a href="javascript:void(0);">Supported country</a></li>
-                        {/* <li><a href="javascript:void(0);">Developer Platform</a></li> */}
                         <li><a href="javascript:void(0);">Blog</a></li>
+                        <li><a href="javascript:void(0);">Help Center</a></li>
+                        <li><a href="javascript:void(0);">Contact us</a></li>
                       </ul>
                       {/* <ul className="footer-links-card wow fadeInUp" data-wow-delay="0.10s">
                         <li className="footer-links-title">Learn</li>
@@ -66,14 +67,52 @@ const Footer = props => {
                         <li><a href="javascript:void(0);">Status</a></li>
                       </ul> */}
                       <ul className="footer-links-card social-links-ul wow fadeInUp" data-wow-delay="0.10s">
-                        <li className="footer-links-title">Contact & Follow</li>
-                        <li><a href="javascript:void(0);">Help Center</a></li>
-                        <li><a href="javascript:void(0);">Contact us</a></li>
+                        <li className="footer-links-title">Follow us</li>
                         <li>
                           <ol className="footer-social-media">
-                            <li><a href="javascript:void(0);"><i className="fa fa-facebook" aria-hidden="true"></i></a></li>
-                            <li><a href="javascript:void(0);"><i className="fa fa-twitter" aria-hidden="true"></i></a></li>
-                            <li><a href="javascript:void(0);"><i className="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                            <li>
+                              <i className="fa fa-facebook" aria-hidden="true"></i>
+                              <span>
+                                <a href="https://www.facebook.com/de.fitt.1">Facebook 1</a>
+                                <a href="https://www.facebook.com/groups/defitt">Facebook 2</a>
+                                <a href="https://www.facebook.com/defittfirefly">Facebook 3</a>
+                              </span>
+                            </li>
+                            <li>
+                              <i className="fa fa-twitter" aria-hidden="true"></i>
+                              <span>
+                                <a href="https://twitter.com/Defitt_ftt ">Twitter</a>
+                              </span>
+                            </li>
+                            <li>
+                              <i className="fa fa-linkedin" aria-hidden="true"></i>
+                              <span>
+                                <a href="https://www.linkedin.com/in/defitt-financial-services/">Linkedin 1</a>
+                                <a href="https://www.linkedin.com/company/defitt-ftt/">Linkedin 2</a>
+                              </span>
+                            </li>
+                            <li>
+                              <i className="fa fa-instagram" aria-hidden="true"></i>
+                              <span>
+                              <a href="https://www.instagram.com/defi.tt/">Instagram</a>
+                              </span>
+                            </li>
+                            <li>
+                              <i className="fa fa-youtube" aria-hidden="true"></i>
+                              <span><a href="https://www.youtube.com/channel/UCyO9CUPft6N_xpnAl4pZONg">YouTube</a></span>
+                            </li>
+                            <li>
+                              <i className="fa fa-quora" aria-hidden="true"></i>
+                              <span><a href="https://defitt.quora.com/">Quora</a></span>
+                            </li>
+                            <li>
+                              <i className="fa fa-reddit" aria-hidden="true"></i>
+                              <span><a href="https://www.reddit.com/user/Defitt/">Reddit</a></span>
+                            </li>
+                            <li>
+                              <i className="fa fa-medium" aria-hidden="true"></i>
+                              <span><a href="https://medium.com/@defitt">Medium</a></span>
+                            </li>
                           </ol>
                         </li>
                       </ul>

@@ -60,12 +60,30 @@ const RoadMap = props => {
                     </div>
                   </li>
                   <li>
-                    <h4 className="timeline-date">5 June, 2021</h4>
+                    <h4 className="timeline-date">31 June, 2021</h4>
                     <div className="timeline-check-circle"><i className="fa fa-check" aria-hidden="true"></i></div>
                     <div className="timeline-card">
-                      <div className="timeline-card-logo"><img src="theme-assets/images/timeline/defi-play.png" className="img-fluid" alt=""/></div>
-                      <h3 className="timeline-card-title">Defittplay</h3>
-                      <p className="timeline-card-detail">Lets make some noise together.</p>
+                      <div className="timeline-card-logo"><img src="theme-assets/images/timeline/defi-landscape.png" className="img-fluid" alt=""/></div>
+                      <h3 className="timeline-card-title">Defi Landscape</h3>
+                      <p className="timeline-card-detail">Build your roof strong with base as FTT.</p>
+                    </div>
+                  </li>
+                  <li>
+                    <h4 className="timeline-date">14 Aug, 2021</h4>
+                    <div className="timeline-check-circle"><i className="fa fa-check" aria-hidden="true"></i></div>
+                    <div className="timeline-card">
+                      <div className="timeline-card-logo"><img src="theme-assets/images/timeline/defi-buzaar.png" className="img-fluid" alt=""/></div>
+                      <h3 className="timeline-card-title">Defi Buzaar</h3>
+                      <p className="timeline-card-detail">Shopping is now in your pocket.</p>
+                    </div>
+                  </li>
+                  <li>
+                    <h4 className="timeline-date">28 Aug, 2021</h4>
+                    <div className="timeline-check-circle"><i className="fa fa-check" aria-hidden="true"></i></div>
+                    <div className="timeline-card">
+                      <div className="timeline-card-logo"><img src="theme-assets/images/timeline/defi-swipecard.png" className="img-fluid" alt=""/></div>
+                      <h3 className="timeline-card-title">Defi Swipecard</h3>
+                      <p className="timeline-card-detail">Its your one go need for cash anywhere on the planet earth.</p>
                     </div>
                   </li>
                   <li className="timeline-bullets with-line"></li>
