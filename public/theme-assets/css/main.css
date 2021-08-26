@@ -395,6 +395,9 @@ button:focus, a:focus, button:hover, a:hover {
 .head-btn{
     margin-left: 30px;
 }
+.head-btn a{
+    display: block;
+}
 .herd-wrap.sticky + .banner-wrapper{
     transform: translateY(86px);
 }
@@ -1522,37 +1525,45 @@ a.see-more{
 }
 
 /* About Us Page Style */
-.about-details h3{
+.about-details>h3{
     font-size: 36px;
     font-weight: 600;
     color: #292930;
     line-height: 27px;
     margin-bottom: 7px;
 }
-.about-details p{
+.about-details>p{
     font-size: 16px;
     font-weight: 500;
     color: #b2b2b2;
     line-height: 22px;
     margin: auto;
 }
-.about-details span{
+.about-details>span{
     display: block;
     font-size: 14px;
     font-weight: 500;
     color: #b2b2b2;
     line-height: 18px;
     margin: auto;
-    margin-bottom: 30px;
-    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-top: 10px;
 }
-.text-title{
-    font-size: 24px;
+h3.text-title{
+    font-size: 30px;
     font-weight: 600;
     color: #292930;
     line-height: 22px;
     margin-bottom: 8px;
-    margin-top: 30px;
+    margin-top: 50px;
+}
+h4.text-title-md{
+    font-size: 24px;
+    font-weight: 600;
+    color: #292930;
+    line-height: 18px;
+    margin-bottom: 8px;
+    margin-top: 20px;
 }
 .text-pera{
     font-size: 16px;
@@ -1561,11 +1572,140 @@ a.see-more{
     line-height: 16px;
     margin: auto;
 }
-
-
+h4.text-list-head{
+    font-size: 20px;
+    font-weight: 600;
+    color: #292930;
+    line-height: 18px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+.cms-list-points{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-left: 10px;
+}
+.cms-list-points li{
+    list-style: none;
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #7b7b7b;
+    line-height: 16px;
+}
 
 /* ================================== Inner Pages Style End ================================== */
 
+
+/* Login Signup Pages Style */
+.entry-page{
+    background: rgb(146,52,208);
+    background: linear-gradient( 130deg , rgba(146,52,208,0.8519782913165266) 0%, rgba(33,30,140,1) 100%);
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+.card-justify-center{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.entry-card{
+    width: 100%;
+    max-width: 920px;
+    margin: auto;
+    padding: 40px;
+    background: #ffffff;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 25px 2px rgb(0 0 0 / 20%);
+    border-radius: 5px;
+}
+.login-logo{
+    max-width: 65px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.entry-card h2{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 20px;
+    color: #292930;
+    text-align: center;
+    margin: auto;
+    padding: 0;
+    margin-bottom: 30px;
+}
+.entry-card .inputBox{
+    position: relative;
+    margin-bottom: 30px;
+}
+.entry-card .inputBox input{
+    position: relative;
+    width: 100%;
+    border: 1px solid rgb(218, 227, 234);
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    height: 50px;
+    padding: 12px 20px;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(153, 153, 159);
+    line-height: 18px;
+    outline: none;
+    box-shadow: none;
+    cursor: pointer;
+}
+.entry-card .inputBox input:-internal-autofill-selected,
+.entry-card .inputBox input:-webkit-autofill,
+.entry-card .inputBox input:-webkit-autofill:hover, 
+.entry-card .inputBox input:-webkit-autofill:focus, 
+.entry-card .inputBox input:-webkit-autofill:active  {
+    -webkit-box-shadow: 0 0 0 30px white inset !important;
+    appearance: initial !important;
+    -webkit-appearance: initial !important;
+    -moz-appearance: initial !important;
+    -ms-progress-appearance: initial !important;
+    background-color: transparent !important;
+    font-size: 18px !important;
+    font-weight: 500 !important;
+    color: rgb(153, 153, 159) !important;
+    line-height: 18px !important;
+}
+
+.entry-card .inputBox label{
+    position: absolute;
+    top: 0;
+    left: 0;
+    letter-spacing: 1px;
+    padding: 10px 0;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 16px;
+    color: #292930;
+    pointer-events: none;
+    transition: .5s;
+}
+.entry-card .inputBox input:focus ~ label,
+.entry-card .inputBox input:valid ~ label{
+    top: -18px;
+    left: 0;
+    color: #00afef;
+    font-size: 12px;
+}
+/* .entry-card input[type="submit"]{
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    background-color: #03a9f4;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+} */
 
 @media only screen and (max-width: 1199px) {
     .banner-bg {
@@ -1599,8 +1739,13 @@ a.see-more{
         padding: 12px 12px;
     }
     .useful-links .footer-links-card {
-        /* flex: 1 1 190px; */
         margin-right: 0;
+    }
+    h3.text-title {
+        line-height: 30px;
+    }
+    h4.text-title-md {
+        line-height: 26px;
     }
 }
 @media only screen and (max-width: 991px) {

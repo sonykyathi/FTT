@@ -53,7 +53,7 @@ export default function HeaderNavbar() {
                             </li>
                             </ul>
                             <div className="head-btn wow fadeInUp" data-wow-delay="0.65s">
-                            <button type="button" className="btn-style-md btn-white-outline">Sign in</button>
+                                <a href="/login" className="btn-style-md btn-white-outline text-center">Sign in</a>
                             </div>
                         </div>
                         {/* <div className="collapse navbar-collapse" id="navbarSupportedContent">

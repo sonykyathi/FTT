@@ -7,6 +7,8 @@ import AboutusPage from "./components/pages/aboutus";
 import galleryPage from "./components/pages/gallery";
 import faqPage from "./components/pages/faq";
 import RoadMap from "./components/RoadMap";
+import LoginPage from "./components/pages/login";
+
 
 function App() {
   return (
@@ -17,6 +19,7 @@ function App() {
           <Route exact path="/aboutus" component={AboutusPage} />
           <Route exact path="/gallery" component={galleryPage} />
           <Route exact path="/faq" component={faqPage} />
+          <Route exact path="/login" component={LoginPage} />
         </Switch>
       </Router>
     </>
