@@ -272,7 +272,7 @@ button:focus, a:focus, button:hover, a:hover {
     display: inline-block;
     position: relative;
     padding-left: 31px;
-    margin: auto;
+    margin: 0;
     cursor: pointer;
     font-size: 16px;
     color: #0083ff;
@@ -1394,6 +1394,11 @@ a.see-more{
     margin: 0;
     text-align: center;
 }
+.cms-short-footer{
+    background: rgb(146,52,208);
+    background: linear-gradient(145deg, rgba(146,52,208,0.8519782913165266) 10%, rgba(33,30,140,1) 40%);
+    width: 100%;
+}
 
 /* ================================== Inner Pages Style Start ================================== */
 .header-navbar-bg{
@@ -1603,8 +1608,8 @@ h4.text-list-head{
 .entry-page{
     background: rgb(146,52,208);
     background: linear-gradient( 130deg , rgba(146,52,208,0.8519782913165266) 0%, rgba(33,30,140,1) 100%);
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: calc(100vh - 136px);
     position: relative;
 }
 .card-justify-center{
@@ -1613,6 +1618,9 @@ h4.text-list-head{
     flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
+}
+.entry-card-img>img{
+    max-width: 400px;
 }
 .entry-card{
     width: 100%;
@@ -1637,11 +1645,11 @@ h4.text-list-head{
     text-align: center;
     margin: auto;
     padding: 0;
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
 }
 .entry-card .inputBox{
     position: relative;
-    margin-bottom: 30px;
+    margin-top: 30px;
 }
 .entry-card .inputBox input{
     position: relative;
@@ -1659,29 +1667,7 @@ h4.text-list-head{
     box-shadow: none;
     cursor: pointer;
 }
-.entry-card .inputBox input:-internal-autofill-selected,
-.entry-card .inputBox input:-webkit-autofill,
-.entry-card .inputBox input:-webkit-autofill:hover, 
-.entry-card .inputBox input:-webkit-autofill:focus, 
-.entry-card .inputBox input:-webkit-autofill:active  {
-    -webkit-box-shadow: 0 0 0 30px white inset !important;
-    appearance: initial !important;
-    -webkit-appearance: initial !important;
-    -moz-appearance: initial !important;
-    -ms-progress-appearance: initial !important;
-    background-color: transparent !important;
-    font-size: 18px !important;
-    font-weight: 500 !important;
-    color: rgb(153, 153, 159) !important;
-    line-height: 18px !important;
-}
-
 .entry-card .inputBox label{
-    position: absolute;
-    top: 0;
-    left: 0;
-    letter-spacing: 1px;
-    padding: 10px 0;
     font-size: 16px;
     font-weight: 600;
     line-height: 16px;
@@ -1689,23 +1675,77 @@ h4.text-list-head{
     pointer-events: none;
     transition: .5s;
 }
-.entry-card .inputBox input:focus ~ label,
-.entry-card .inputBox input:valid ~ label{
-    top: -18px;
-    left: 0;
-    color: #00afef;
-    font-size: 12px;
+.login-input-options{
+    margin-top: 8px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
 }
-/* .entry-card input[type="submit"]{
-    background: transparent;
-    border: none;
-    outline: none;
-    color: #fff;
-    background-color: #03a9f4;
-    padding: 10px 20px;
-    cursor: pointer;
+.login-remember{
+    font-size: 16px;
+    color: #292930;
+    font-weight: 500;
+    line-height: 18px;
+    padding-left: 26px;
+}
+.login-remember .checkmark {
+    height: 20px;
+    width: 20px;
+    background-color: transparent;
+    border: 1px solid rgb(218, 227, 234);
     border-radius: 5px;
-} */
+}
+.login-remember.custom-checkbox:hover input~.checkmark {
+    background-color: rgb(0 175 239 / 10%);
+    border: 1px solid rgb(0 175 239 / 10%);
+}
+.login-remember.custom-checkbox input:checked~.checkmark {
+    background-color: #00afef;
+    border: 1px solid #00afef;
+}
+.login-remember.custom-checkbox .checkmark:after {
+    left: 6px;
+    top: 3px;
+    width: 5px;
+    height: 10px;
+    border-width: 0 2px 2px 0;
+}
+.login-forget>a{
+    font-size: 15px;
+    color: #292930;
+    font-weight: 500;
+    line-height: 16px;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+}
+.login-forget>a:hover{
+    color: #00afef;
+    text-decoration: none;
+}
+.login-button{
+    margin-top: 20px;
+}
+.entry-form-swap>span{
+    display: block;
+    font-size: 16px;
+    color: #292930;
+    font-weight: 600;
+    margin-top: 20px;
+    text-align: center;
+}
+.entry-form-swap>span>a{
+    color: #0083ff;
+    padding-left: 4px;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+}
+.entry-form-swap>span>a:hover{
+    color: #fb9720;
+    padding-left: 4px;
+    text-decoration: none;
+}
+
 
 @media only screen and (max-width: 1199px) {
     .banner-bg {
