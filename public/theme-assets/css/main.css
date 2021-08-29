@@ -397,6 +397,10 @@ button:focus, a:focus, button:hover, a:hover {
 }
 .head-btn a{
     display: block;
+    text-decoration: none;
+}
+.head-btn a:hover{
+    text-decoration: none;
 }
 .herd-wrap.sticky + .banner-wrapper{
     transform: translateY(86px);
@@ -1601,15 +1605,50 @@ h4.text-list-head{
     line-height: 16px;
 }
 
+/* Gallery Page Style */
+.gallery-thumbnail-card{
+    background: #FFFFFF;
+    border: 1px solid rgb(233, 248, 254);
+    border-radius: 10px;
+    width: 100%;
+    height: 232px;
+    display: block;
+    padding: 5px;
+    margin-bottom: 30px;
+    overflow: hidden;
+    transition: all 0.2s ease-in-out;
+}
+.gallery-thumbnail-card:hover,
+.gallery-thumbnail-card:focus{
+    background: #fb9720;
+    border: 3px solid #fb9720;
+}
+
+.gallery-thumbnail-card > img.gt-tag,
+.gallery-thumbnail-card > .gt-tag{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
 /* ================================== Inner Pages Style End ================================== */
 
 
 /* Login Signup Pages Style */
+.entry-card-img{
+    margin: auto;
+    display: flex;
+}
+.entry-card-img>img{
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+}
 .entry-page{
     background: rgb(146,52,208);
     background: linear-gradient( 130deg , rgba(146,52,208,0.8519782913165266) 0%, rgba(33,30,140,1) 100%);
     width: 100%;
-    height: calc(100vh - 136px);
+    min-height: calc(100vh - 136px);
     position: relative;
 }
 .card-justify-center{
@@ -1618,9 +1657,6 @@ h4.text-list-head{
     flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
-}
-.entry-card-img>img{
-    max-width: 400px;
 }
 .entry-card{
     width: 100%;
@@ -1644,14 +1680,14 @@ h4.text-list-head{
     color: #292930;
     text-align: center;
     margin: auto;
+    margin-bottom: 20px;
     padding: 0;
-    /* margin-bottom: 30px; */
 }
 .entry-card .inputBox{
     position: relative;
-    margin-top: 30px;
+    margin-top: 15px;
 }
-.entry-card .inputBox input{
+.entry-card .inputBox .form-control{
     position: relative;
     width: 100%;
     border: 1px solid rgb(218, 227, 234);
@@ -1661,14 +1697,24 @@ h4.text-list-head{
     padding: 12px 20px;
     font-size: 18px;
     font-weight: 500;
-    color: rgb(153, 153, 159);
+    color: #292930;
     line-height: 18px;
     outline: none;
     box-shadow: none;
     cursor: pointer;
 }
-.entry-card .inputBox label{
+.entry-card .inputBox .form-control::placeholder{
     font-size: 16px;
+    color: rgb(153, 153, 159);
+}
+.entry-card .inputBox .form-control:-webkit-autofill,
+.entry-card .inputBox .form-control:-webkit-autofill:hover,
+.entry-card .inputBox .form-control:-webkit-autofill:focus,
+.entry-card .inputBox .form-control:-webkit-autofill:active  {
+  -webkit-box-shadow: 0 0 0 30px white inset !important;
+}
+.entry-card .inputBox label{
+    font-size: 15px;
     font-weight: 600;
     line-height: 16px;
     color: #292930;
@@ -1717,6 +1763,8 @@ h4.text-list-head{
     font-weight: 500;
     line-height: 16px;
     text-decoration: none;
+    text-align: right;
+    display: block;
     transition: all 0.2s ease-in-out;
 }
 .login-forget>a:hover{
@@ -1730,12 +1778,12 @@ h4.text-list-head{
     display: block;
     font-size: 16px;
     color: #292930;
-    font-weight: 600;
+    font-weight: 500;
     margin-top: 20px;
     text-align: center;
 }
 .entry-form-swap>span>a{
-    color: #0083ff;
+    color: #00afef;
     padding-left: 4px;
     text-decoration: none;
     transition: all 0.2s ease-in-out;
@@ -1786,6 +1834,9 @@ h4.text-list-head{
     }
     h4.text-title-md {
         line-height: 26px;
+    }
+    .gallery-thumbnail-card {
+        height: 202px;
     }
 }
 @media only screen and (max-width: 991px) {
@@ -1915,9 +1966,9 @@ h4.text-list-head{
         margin-top: 40px;
         padding: 0 15px;
     }
-    /* .useful-links .footer-links-card {
-        flex: 0 1 185px;
-    } */
+    .login-header .head-btn {
+        padding: 0 0;
+    }
 }
 @media only screen and (max-width: 767px) {
     .navbar.ftt-navbar {
@@ -1943,6 +1994,8 @@ h4.text-list-head{
     .useful-links {
         flex-wrap: wrap;
     }
+    .entry-page.section-gap-140{padding: 80px 0;}
+    .gallery-thumbnail-card {height: 278px;}
     /* .useful-links .footer-links-card {
         flex: 0 0 50%;
     } */
@@ -2054,6 +2107,9 @@ h4.text-list-head{
         margin-right: 15px;
     }
     .product-cards-wrapper ol li:last-child {margin-right: 0;}
+    .entry-card {padding: 40px 20px;}
+    .gallery-thumbnail-card {height: auto;max-height: 300px;}
+    
 }
 
 

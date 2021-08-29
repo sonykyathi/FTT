@@ -14,7 +14,7 @@ export default function faqPage() {
                             <h3>FAQ's</h3>
                         </div>
                         <div className="ftt-accordian accordion" id="fttAccordian">
-                            <div className="card">
+                            <div className="card wow fadeInLeft" data-wow-delay="0.10s">
                                 <div className="card-header" id="headingOne">
                                 <h2>
                                     <button className="btn-accordian" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">How is FTT stablecoins different?</button>
@@ -27,7 +27,7 @@ export default function faqPage() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="card">
+                            <div className="card wow fadeInLeft" data-wow-delay="0.10s">
                                 <div className="card-header" id="headingTwo">
                                 <h2>
                                     <button className="btn-accordian collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">How can Customers Create, redeem and transfer FTT?</button>
@@ -39,7 +39,7 @@ export default function faqPage() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="card">
+                            <div className="card wow fadeInLeft" data-wow-delay="0.10s">
                                 <div className="card-header" id="headingThree">
                                 <h2>
                                     <button className="btn-accordian collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Why does FTT use the Binance Smart Chain?</button>
@@ -65,7 +65,7 @@ export default function faqPage() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="card">
+                            <div className="card wow fadeInLeft" data-wow-delay="0.10s">
                                 <div className="card-header" id="headingFour">
                                 <h2>
                                     <button className="btn-accordian collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">Where can I use my FTT stablecoins outside of the FTT platform?</button>
@@ -79,7 +79,7 @@ export default function faqPage() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="card">
+                            <div className="card wow fadeInLeft" data-wow-delay="0.10s">
                                 <div className="card-header" id="headingFive">
                                 <h2>
                                     <button className="btn-accordian collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">How quickly can I create or redeem stablecoins?</button>
@@ -91,7 +91,7 @@ export default function faqPage() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="card">
+                            <div className="card wow fadeInLeft" data-wow-delay="0.10s">
                                 <div className="card-header" id="headingSix">
                                 <h2>
                                     <button className="btn-accordian collapsed" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">Why should I hold stablecoins?</button>
@@ -103,7 +103,7 @@ export default function faqPage() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="card">
+                            <div className="card wow fadeInLeft" data-wow-delay="0.10s">
                                 <div className="card-header" id="headingSeven">
                                 <h2>
                                     <button className="btn-accordian collapsed" type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">What does custody mean?</button>
@@ -115,7 +115,7 @@ export default function faqPage() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="card">
+                            <div className="card wow fadeInLeft" data-wow-delay="0.10s">
                                 <div className="card-header" id="headingEight">
                                 <h2>
                                     <button className="btn-accordian collapsed" type="button" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">What exactly is a competent custodian?</button>
