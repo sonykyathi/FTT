@@ -50,9 +50,6 @@ export default function AboutusPage() {
                                         <img className="img-fluid gt-tag" src="https://source.unsplash.com/pWkk7iiCoDM/400x300" alt=""/>
                                     </a>
                                 </div>
-
-
-
                             </div>
                         </div>
                     </div>
