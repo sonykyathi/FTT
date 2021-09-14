@@ -4,7 +4,7 @@ import PropTypes from 'prop-types'
 const ContactUs = props => {
     return (
         // Contact Us Code Start
-        <section className="contact-wrapper graph-bg section-gap-120">
+        <section className="contact-wrapper graph-bg section-gap-120" id="contactUsLink">
           <div className="container">
             <div className="section-title-md text-center wow fadeInUp" data-wow-delay="0.10s">
               <h3>Contact Us</h3>

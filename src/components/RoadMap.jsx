@@ -4,8 +4,8 @@ import PropTypes from 'prop-types'
 const RoadMap = props => {
     return (
         // Roadmap Code Start
-        <section className="roadmap-wrapper gredient-bg poly-bg section-gap-140">
-          <div className="container" id="roadmapLink">
+        <section className="roadmap-wrapper gredient-bg poly-bg section-gap-140" id="roadmapLink">
+          <div className="container">
             <div className="roadmap-content">
               <div className="section-title-md white text-center wow fadeInUp" data-wow-delay="0.10s">
                 <h3>Roadmap</h3>

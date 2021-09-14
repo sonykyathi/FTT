@@ -76,30 +76,14 @@ export default function Header() {
                         class="dropdown-menu custom-dropdown-menu"
                         aria-labelledby="productDropdown"
                       >
-                        <a class="dropdown-item" to="javascript:void(0);">
-                          defistartup
-                        </a>
-                        <a class="dropdown-item" href="javascript:void(0);">
-                          defiplay
-                        </a>
-                        <a class="dropdown-item" href="javascript:void(0);">
-                          defiswipecard
-                        </a>
-                        <a class="dropdown-item" href="javascript:void(0);">
-                          defitradx
-                        </a>
-                        <a class="dropdown-item" href="javascript:void(0);">
-                          defibuzaar
-                        </a>
-                        <a class="dropdown-item" href="javascript:void(0);">
-                          definirvaana
-                        </a>
-                        <a class="dropdown-item" href="javascript:void(0);">
-                          defikampus
-                        </a>
-                        <a class="dropdown-item" href="javascript:void(0);">
-                          defilandscapes
-                        </a>
+                        <a class="dropdown-item" href="#proDefistartup">defistartup</a>
+                        <a class="dropdown-item" href="#proDefiplay">defiplay</a>
+                        <a class="dropdown-item" href="#proDeficard">defiswipecard</a>
+                        <a class="dropdown-item" href="#proDefitradx">defitradx</a>
+                        <a class="dropdown-item" href="#proDefibuzaar">defibuzaar</a>
+                        <a class="dropdown-item" href="#proDefinirvana">definirvaana</a>
+                        <a class="dropdown-item" href="#proDefikampus">defikampus</a>
+                        <a class="dropdown-item" href="#proDefiland">defilandscapes</a>
                       </div>
                     </li>
                     <li className="nav-item dropdown">
@@ -127,7 +111,7 @@ export default function Header() {
                       </div>
                     </li>
                     <li className="nav-item">
-                      <a className="nav-link" href="javascript:void(0);">
+                      <a className="nav-link" href="#roadmapLink">
                         Roadmap
                       </a>
                     </li>
@@ -136,34 +120,6 @@ export default function Header() {
                     <a href="/login" className="btn-style-md btn-white-outline text-center">Sign in</a>
                   </div>
                 </div>
-                {/* <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul className="navbar-nav ml-auto">
-                      <li className="nav-item active">
-                        <Link to="home" className="nav-link">Home</Link>
-                      </li>
-                      <li className="nav-item">
-                        <Link to="/products" className="nav-link">Products</Link>
-                      </li>
-                      <li className="nav-item">
-                        <Link to="/features" className="nav-link">Our Services</Link>
-                      </li>
-                      <li className="nav-item">
-                        <a className="nav-link" href="#techLink">Technology</a>
-                      </li>
-                      <li className="nav-item">
-                        <Link to="/roadmap" className="nav-link">Roadmap</Link>
-                      </li>
-                      <li className="nav-item">
-                        <Link to="/" className="nav-link">Gallery</Link>
-                      </li>
-                      <li className="nav-item">
-                        <Link to="/about" className="nav-link">About Us</Link>
-                      </li>
-                    </ul>
-                    <div className="head-btn wow fadeInUp" data-wow-delay="0.65s">
-                      <button type="button" className="btn-style-md btn-white-outline">Sign in</button>
-                    </div>
-                  </div> */}
               </nav>
             </div>
           </div>

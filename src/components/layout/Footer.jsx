@@ -43,10 +43,10 @@ const Footer = props => {
                       <ul className="footer-links-card wow fadeInUp" data-wow-delay="0.10s">
                         <li className="footer-links-title">Company</li>
                         <li><a href="/">Home</a></li>
-                        <li><a href="/">Products</a></li>
-                        <li><a href="/">Our Services</a></li>
-                        <li><a href="/">Technology</a></li>
-                        <li><a href="/">Roadmap</a></li>
+                        <li><a href="/#productsLink">Products</a></li>
+                        {/* <li><a href="/">Our Services</a></li>
+                        <li><a href="/">Technology</a></li> */}
+                        <li><a href="/#roadmapLink">Roadmap</a></li>
                         <li><a href="/aboutus">About us</a></li>
                       </ul>
                       <ul className="footer-links-card wow fadeInUp" data-wow-delay="0.10s">
@@ -56,16 +56,8 @@ const Footer = props => {
                         <li><a href="javascript:void(0);">Supported country</a></li>
                         <li><a href="javascript:void(0);">Blog</a></li>
                         <li><a href="javascript:void(0);">Help Center</a></li>
-                        <li><a href="javascript:void(0);">Contact us</a></li>
+                        <li><a href="/#contactUsLink">Contact us</a></li>
                       </ul>
-                      {/* <ul className="footer-links-card wow fadeInUp" data-wow-delay="0.10s">
-                        <li className="footer-links-title">Learn</li>
-                        <li><a href="javascript:void(0);">Buy Bitcoin</a></li>
-                        <li><a href="javascript:void(0);">Buy Bitcoin Cash</a></li>
-                        <li><a href="javascript:void(0);">Buy Ethereum</a></li>
-                        <li><a href="javascript:void(0);">Buy Litecoin</a></li>
-                        <li><a href="javascript:void(0);">Status</a></li>
-                      </ul> */}
                       <ul className="footer-links-card social-links-ul wow fadeInUp" data-wow-delay="0.10s">
                         <li className="footer-links-title">Follow us</li>
                         <li>
@@ -73,9 +65,8 @@ const Footer = props => {
                             <li>
                               <i className="fa fa-facebook" aria-hidden="true"></i>
                               <span>
-                                <a href="https://www.facebook.com/de.fitt.1">Facebook 1</a>
-                                <a href="https://www.facebook.com/groups/defitt">Facebook 2</a>
-                                <a href="https://www.facebook.com/defittfirefly">Facebook 3</a>
+                                <a href="https://www.facebook.com/de.fitt.1">Facebook</a>
+                                <a href="https://www.facebook.com/DEFIttFTT-107704684841618">Facebook 2</a>
                               </span>
                             </li>
                             <li>
@@ -87,8 +78,7 @@ const Footer = props => {
                             <li>
                               <i className="fa fa-linkedin" aria-hidden="true"></i>
                               <span>
-                                <a href="https://www.linkedin.com/in/defitt-financial-services/">Linkedin 1</a>
-                                <a href="https://www.linkedin.com/company/defitt-ftt/">Linkedin 2</a>
+                                <a href="https://www.linkedin.com/company/defitt-ftt/">Linkedin</a>
                               </span>
                             </li>
                             <li>
@@ -99,7 +89,7 @@ const Footer = props => {
                             </li>
                             <li>
                               <i className="fa fa-youtube" aria-hidden="true"></i>
-                              <span><a href="https://www.youtube.com/channel/UCyO9CUPft6N_xpnAl4pZONg">YouTube</a></span>
+                              <span><a href="https://www.youtube.com/channel/UC16kabwz_ayjbCX-ktl5-dQ">YouTube</a></span>
                             </li>
                             <li>
                               <i className="fa fa-quora" aria-hidden="true"></i>
