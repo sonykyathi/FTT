@@ -15,7 +15,7 @@ const RoadMap = props => {
                 <ol id="fttTimeline">
                   <li className="timeline-bullets"></li>
                   <li className="active">
-                    <h4 className="timeline-date">5 June, 2021</h4>
+                    <h4 className="timeline-date">5th June, 2021</h4>
                     <div className="timeline-check-circle"><i className="fa fa-check" aria-hidden="true"></i></div>
                     <div className="timeline-card">
                       <div className="timeline-card-logo"><img src="theme-assets/images/timeline/defi-play.png" className="img-fluid" alt=""/></div>
@@ -24,7 +24,7 @@ const RoadMap = props => {
                     </div>
                   </li>
                   <li>
-                    <h4 className="timeline-date">5 Aug, 2021</h4>
+                    <h4 className="timeline-date">13th Oct, 2021</h4>
                     <div className="timeline-check-circle"><i className="fa fa-check" aria-hidden="true"></i></div>
                     <div className="timeline-card">
                       <div className="timeline-card-logo"><img src="theme-assets/images/timeline/defi-startup.png" className="img-fluid" alt=""/></div>
@@ -33,7 +33,7 @@ const RoadMap = props => {
                     </div>
                   </li>
                   <li>
-                    <h4 className="timeline-date">5 Sep, 2021</h4>
+                    <h4 className="timeline-date">3rd Dec, 2021</h4>
                     <div className="timeline-check-circle"><i className="fa fa-check" aria-hidden="true"></i></div>
                     <div className="timeline-card">
                       <div className="timeline-card-logo"><img src="theme-assets/images/timeline/defi-tradx.png" className="img-fluid" alt=""/></div>
@@ -42,7 +42,7 @@ const RoadMap = props => {
                     </div>
                   </li>
                   <li>
-                    <h4 className="timeline-date">20 Sep, 2021</h4>
+                    <h4 className="timeline-date">28th Dec, 2021</h4>
                     <div className="timeline-check-circle"><i className="fa fa-check" aria-hidden="true"></i></div>
                     <div className="timeline-card">
                       <div className="timeline-card-logo"><img src="theme-assets/images/timeline/defi-kampus.png" className="img-fluid" alt=""/></div>
@@ -51,7 +51,7 @@ const RoadMap = props => {
                     </div>
                   </li>
                   <li>
-                    <h4 className="timeline-date">13 Oct, 2021</h4>
+                    <h4 className="timeline-date">22nd Jan, 2022</h4>
                     <div className="timeline-check-circle"><i className="fa fa-check" aria-hidden="true"></i></div>
                     <div className="timeline-card">
                       <div className="timeline-card-logo"><img src="theme-assets/images/timeline/defi-nirvaana.png" className="img-fluid" alt=""/></div>
@@ -60,7 +60,7 @@ const RoadMap = props => {
                     </div>
                   </li>
                   <li>
-                    <h4 className="timeline-date">31 June, 2021</h4>
+                    <h4 className="timeline-date">16th Feb, 2022</h4>
                     <div className="timeline-check-circle"><i className="fa fa-check" aria-hidden="true"></i></div>
                     <div className="timeline-card">
                       <div className="timeline-card-logo"><img src="theme-assets/images/timeline/defi-landscape.png" className="img-fluid" alt=""/></div>
@@ -69,7 +69,7 @@ const RoadMap = props => {
                     </div>
                   </li>
                   <li>
-                    <h4 className="timeline-date">14 Aug, 2021</h4>
+                    <h4 className="timeline-date">13th Mar, 2022</h4>
                     <div className="timeline-check-circle"><i className="fa fa-check" aria-hidden="true"></i></div>
                     <div className="timeline-card">
                       <div className="timeline-card-logo"><img src="theme-assets/images/timeline/defi-buzaar.png" className="img-fluid" alt=""/></div>
@@ -78,7 +78,7 @@ const RoadMap = props => {
                     </div>
                   </li>
                   <li>
-                    <h4 className="timeline-date">28 Aug, 2021</h4>
+                    <h4 className="timeline-date">7th April, 2022</h4>
                     <div className="timeline-check-circle"><i className="fa fa-check" aria-hidden="true"></i></div>
                     <div className="timeline-card">
                       <div className="timeline-card-logo"><img src="theme-assets/images/timeline/defi-swipecard.png" className="img-fluid" alt=""/></div>

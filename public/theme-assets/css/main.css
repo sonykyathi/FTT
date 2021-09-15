@@ -1553,7 +1553,7 @@ a.see-more{
     font-size: 14px;
     font-weight: 500;
     color: #b2b2b2;
-    line-height: 18px;
+    line-height: 20px;
     margin: auto;
     margin-bottom: 40px;
     margin-top: 10px;
@@ -1564,13 +1564,13 @@ h3.text-title{
     color: #292930;
     line-height: 22px;
     margin-bottom: 8px;
-    margin-top: 50px;
+    margin-top: 3rem;
 }
 h4.text-title-md{
     font-size: 24px;
     font-weight: 600;
     color: #292930;
-    line-height: 18px;
+    line-height: 24px;
     margin-bottom: 8px;
     margin-top: 20px;
 }
@@ -1578,7 +1578,7 @@ h4.text-title-md{
     font-size: 16px;
     font-weight: 500;
     color: #b2b2b2;
-    line-height: 16px;
+    line-height: 22px;
     margin: auto;
 }
 h4.text-list-head{
@@ -1593,7 +1593,6 @@ h4.text-list-head{
     list-style: none;
     padding: 0;
     margin: 0;
-    margin-left: 10px;
 }
 .cms-list-points li{
     list-style: none;
@@ -1603,6 +1602,18 @@ h4.text-list-head{
     font-weight: 500;
     color: #7b7b7b;
     line-height: 16px;
+    margin-bottom: 14px;
+}
+.cms-list-points li:last-child{
+    margin-bottom: 0;
+}
+.about-points-card{
+    background: #f5f5f5;
+    border-radius: 10px;
+    padding: 30px 20px;
+    margin: 15px 0;
+    margin-top: 4rem;
+    height: 100%;
 }
 
 /* Gallery Page Style */
