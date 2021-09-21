@@ -26,7 +26,7 @@ const Products = props => {
                         </div>
                       </div>
                       <p className="product-description">Defistartup platform creates a match between investors and entrepreneurs seeking financing.  Entrepreneurs will upload their ideas and projects on the platform, we would validate and choose and hand them over to interested investors and create a bridge between them.</p>
-                      <a href="javascript:void(0);" className="findmore-link" data-toggle="modal" data-target="#defiStartupModal">Find Out More<i className="fa fa-angle-double-right" aria-hidden="true"></i></a>
+                      <a href="javascript:void(0);" className="findmore-link">Find Out More<i className="fa fa-angle-double-right" aria-hidden="true"></i></a>
                     </div>
                   </li>
                   <li id="proDefiplay">
@@ -41,7 +41,7 @@ const Products = props => {
                         </div>
                       </div>
                       <p className="product-description">DfittPlay is a prominent game site offering blockchain games with welldesigned token economics. FTT is used for sign-ups, play, & earn.</p>
-                      <a href="javascript:void(0);" className="findmore-link">Find Out More<i className="fa fa-angle-double-right" aria-hidden="true"></i></a>
+                      <a href="javascript:void(0);" className="findmore-link" data-toggle="modal" data-target="#defiPlayModal">Find Out More<i className="fa fa-angle-double-right" aria-hidden="true"></i></a>
                     </div>
                   </li>
                   <li id="proDeficard">

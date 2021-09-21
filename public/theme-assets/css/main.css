@@ -167,7 +167,7 @@ button:focus, a:focus, button:hover, a:hover {
 .section-gap-120{padding: 120px 0;}
 .gredient-bg{
     background: rgb(146,52,208);
-    background: linear-gradient(-45deg, rgba(146,52,208,0.8519782913165266) 10%, rgba(33,30,140,1) 60%);
+    background: linear-gradient(-45deg, rgba(146,52,208,1) 10%, rgba(33,30,140,1) 60%);
 }
 .poly-bg{
     position: relative;
@@ -517,7 +517,7 @@ button:focus, a:focus, button:hover, a:hover {
     margin-bottom: 35px;
 }
 .section-title-lg h3{
-    font-size: 72px;
+    font-size: 64px;
     font-weight: 600;
     color: #292930;
     line-height: 54px;
@@ -748,8 +748,9 @@ a.see-more{
 }
 .focus-arrow .focus-arrow-img{
     position: absolute;
-    bottom: -20%;
-    right: -16%;
+    bottom: -5%;
+    right: -12%;
+    max-width: 260px;
 }
 .feature-points-list>ul{
     margin: 0;
@@ -839,6 +840,32 @@ a.see-more{
 .feature-modal .modal-dialog{
     width: 100%;
     max-width: 1040px;
+}
+.feature-modal .modal-content{
+    border: none;
+    border-radius: 10px;
+}
+.feature-modal button.close{
+    position: absolute;
+    top: -14px;
+    right: -14px;
+    float: none;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 0px;
+    color: #000;
+    text-shadow: none;
+    opacity: 1;
+    background: #FFFFFF;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 0px 0px 8px 4px rgb(0 0 0 / 15%);
+    padding: 10px 10px;
+    width: 40px;
+    height: 40px;
+}
+.feature-modal .feature-wrapper{
+    padding: 60px 40px;
 }
 
 /* Roadmap Section Style */
@@ -1813,6 +1840,8 @@ h4.text-list-head{
 
 
 
+/* Mobile Responsive Style */
+
 @media only screen and (max-width: 1199px) {
     .banner-bg {
         height: 830px;
@@ -1831,9 +1860,9 @@ h4.text-list-head{
         height: 100px;
     }
     .focus-arrow .focus-arrow-img {
-        bottom: -10%;
+        bottom: 5%;
         right: -10%;
-        max-width: 270px;
+        max-width: 230px;
     }
     .contact-card {
         padding: 20px 20px;
@@ -1855,6 +1884,9 @@ h4.text-list-head{
     }
     .gallery-thumbnail-card {
         height: 202px;
+    }
+    .feature-modal .modal-dialog {
+        width: calc(100% - 40px);
     }
 }
 @media only screen and (max-width: 991px) {
@@ -2014,16 +2046,13 @@ h4.text-list-head{
     }
     .entry-page.section-gap-140{padding: 80px 0;}
     .gallery-thumbnail-card {height: 278px;}
-    /* .useful-links .footer-links-card {
-        flex: 0 0 50%;
-    } */
-    /* .useful-links .footer-links-card:nth-child(1),
-    .useful-links .footer-links-card:nth-child(2) {
-        margin-bottom: 50px;
-    } */
-    /* .useful-links .footer-links-card.social-links-ul {
-        flex: 0 0 50%;
-    } */
+    .feature-modal .modal-dialog {
+        width: calc(100% - 31px);
+        margin: 40px auto;
+    }
+    .feature-modal .feature-wrapper {
+        padding: 40px 15px;
+    }
 }
 @media only screen and (max-width: 525px) {
     .ftt-navbar .navbar-brand {
