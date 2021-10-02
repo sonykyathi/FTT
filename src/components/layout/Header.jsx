@@ -1,4 +1,5 @@
 import React from "react";
+import {downloadWhitePaper} from '../../utils';
 
 export default function Header() {
   return (
@@ -139,7 +140,7 @@ export default function Header() {
                     <button type="button" className="btn-style-md btn-blue">
                       Buy Token
                     </button>
-                    <button type="button" className="btn-style-md btn-white">
+                    <button type="button" className="btn-style-md btn-white" onClick={downloadWhitePaper}>
                       White Paper
                     </button>
                   </div>
