@@ -9,11 +9,14 @@ import faqPage from "./components/pages/faq";
 import RoadMap from "./components/RoadMap";
 import LoginPage from "./components/pages/login";
 import Register from "./components/pages/register";
+import ReactNotification from 'react-notifications-component'
+import 'react-notifications-component/dist/theme.css'
 
 
 function App() {
   return (
     <>
+      <ReactNotification />
       <Router>
         <Switch>
           <Route exact path="/" component={HomePage} />

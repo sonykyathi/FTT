@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { store } from 'react-notifications-component';
 
 import axios from 'axios';
 
@@ -28,7 +28,6 @@ export default function Register() {
         confirmPassword,
     } = formData;
 
-    const [isRegister, setIsRegister] = useState('');
     const [passwordMatch, setPasswordMatch] = useState(true);
     const onChange = (e) => {
         setFormData({ ...formData, [e.target.name]: e.target.value });
@@ -45,17 +44,66 @@ export default function Register() {
         axios
             .post(`${process.env.REACT_APP_API}/api/v1/auth/register`, formData)
             .then((response) => {
-                setIsRegister('passed');
-                setTimeout(() => {
-                    setIsRegister('');
-                }, 3000);
+                debugger
+                if (response.success) {
+
+                    store.addNotification({
+                        title: "Congrats!",
+                        message: "You are registered",
+                        type: "success",
+                        insert: "top",
+                        container: "top-right",
+                        animationIn: ["animate__animated", "animate__fadeIn"],
+                        animationOut: ["animate__animated", "animate__fadeOut"],
+                        dismiss: {
+                            duration: 5000,
+                            onScreen: true
+                        }
+                    });
+                    setFormData({
+                        firstName: '',
+                        lastName: '',
+                        country: '',
+                        state: '',
+                        email: '',
+                        countryCode: '',
+                        phone: '',
+                        password: '',
+                        confirmPassword: '',
+                    });
+                }else{
+                    store.addNotification({
+                        title: "Error!",
+                        message: response.error || '',
+                        type: "danger",
+                        insert: "top",
+                        container: "top-right",
+                        animationIn: ["animate__animated", "animate__fadeIn"],
+                        animationOut: ["animate__animated", "animate__fadeOut"],
+                        dismiss: {
+                            duration: 5000,
+                            onScreen: true
+                        }
+                    });
+                }
+
+
             })
             .catch((err) => {
-                console.log(err.response.data.error);
-                setIsRegister('failed');
-                setTimeout(() => {
-                    setIsRegister('');
-                }, 3000);
+                store.addNotification({
+                    title: "Error!",
+                    message: err.response.data.error|| '',
+                    type: "danger",
+                    insert: "top",
+                    container: "top-right",
+                    animationIn: ["animate__animated", "animate__fadeIn"],
+                    animationOut: ["animate__animated", "animate__fadeOut"],
+                    dismiss: {
+                        duration: 5000,
+                        onScreen: true
+                    }
+                });
+
             });
     };
 
@@ -135,8 +183,8 @@ export default function Register() {
                                             <div className="inputBox">
                                                 <label>Phone No.</label>
                                                 <input type="phone" className="form-control" placeholder="Your Phone"
-                                                   name="phone"
-                                                   onChange={onChange}
+                                                    name="phone"
+                                                    onChange={onChange}
                                                     value={phone}
                                                     placeholder='Enter Your Contact Number.'
                                                     required
@@ -483,30 +531,30 @@ export default function Register() {
                                         <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xl-6 col-12">
                                             <div className="inputBox">
                                                 <label>Password</label>
-                                                <input 
-                                                 type='Password'
-                                                 name='password'
-                                                 value={password}
-                                                 onChange={onChange}
-                                                 className='form-control'
-                                                 id='pass'
-                                                 placeholder='Enter your password.'
+                                                <input
+                                                    type='Password'
+                                                    name='password'
+                                                    value={password}
+                                                    onChange={onChange}
+                                                    className='form-control'
+                                                    id='pass'
+                                                    placeholder='Enter your password.'
                                                     required
-                                                 />
+                                                />
                                             </div>
                                         </div>
                                         <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xl-6 col-12">
                                             <div className="inputBox">
                                                 <label>Confirm Password</label>
-                                                <input 
+                                                <input
                                                     type='Password'
-                                               name='confirmPassword'
-                                               value={confirmPassword}
-                                               onChange={onChange}
-                                               className='form-control'
-                                               id='pass2'
-                                               placeholder='Re-enter your password.'
-                                               required
+                                                    name='confirmPassword'
+                                                    value={confirmPassword}
+                                                    onChange={onChange}
+                                                    className='form-control'
+                                                    id='pass2'
+                                                    placeholder='Re-enter your password.'
+                                                    required
                                                 />
                                             </div>
                                         </div>
