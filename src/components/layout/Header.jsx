@@ -103,7 +103,7 @@ export default function Header() {
                         class="dropdown-menu custom-dropdown-menu"
                         aria-labelledby="coinDropdown"
                       >
-                        <a class="dropdown-item" href="https://www.defitt.org/">
+                        <a class="dropdown-item" target="_blank" href="https://www.defitt.org/">
                           DEFITT
                         </a>
                         <a class="dropdown-item" href="javascript:void(0);">
