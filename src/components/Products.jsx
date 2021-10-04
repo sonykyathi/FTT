@@ -26,7 +26,7 @@ const Products = props => {
                         </div>
                       </div>
                       <p className="product-description">Defistartup platform creates a match between investors and entrepreneurs seeking financing.  Entrepreneurs will upload their ideas and projects on the platform, we would validate and choose and hand them over to interested investors and create a bridge between them.</p>
-                      <a href="javascript:void(0);" className="findmore-link">Find Out More<i className="fa fa-angle-double-right" aria-hidden="true"></i></a>
+                      <a href="javascript:void(0);" className="findmore-link"data-toggle="modal" data-target="#defiStartUpModal">Find Out More<i className="fa fa-angle-double-right" aria-hidden="true"></i></a>
                     </div>
                   </li>
                   <li id="proDefiplay">
@@ -58,7 +58,7 @@ const Products = props => {
                       <p className="product-description">The Defiswipecard enables you to make everyday purchases while also
                         enjoying higher spending limits at reduced transaction fees.
                         </p>
-                      <a href="javascript:void(0);" className="findmore-link">Find Out More<i className="fa fa-angle-double-right" aria-hidden="true"></i></a>
+                      <a href="javascript:void(0);" className="findmore-link"data-toggle="modal" data-target="#defiCardModal">Find Out More<i className="fa fa-angle-double-right" aria-hidden="true"></i></a>
                     </div>
                   </li>
                   <li id="proDefitradx">
@@ -74,7 +74,7 @@ const Products = props => {
                       </div>
                       <p className="product-description">Defitradx Exchange provides the best execution prices, exceptional
                         customer service, attractive trading volumes, and outstanding liquidity.</p>
-                      <a href="javascript:void(0);" className="findmore-link">Find Out More<i className="fa fa-angle-double-right" aria-hidden="true"></i></a>
+                      <a href="javascript:void(0);" className="findmore-link" data-toggle="modal" data-target="#defiTradXModal">Find Out More<i className="fa fa-angle-double-right" aria-hidden="true"></i></a>
                     </div>
                   </li>
                   <li id="proDefibuzaar">
@@ -89,7 +89,7 @@ const Products = props => {
                         </div>
                       </div>
                       <p className="product-description">Defibuzaar is an e-commerce platform where consumers can make a purchase and pay with FTT.</p>
-                      <a href="javascript:void(0);" className="findmore-link">Find Out More<i className="fa fa-angle-double-right" aria-hidden="true"></i></a>
+                      <a href="javascript:void(0);" className="findmore-link" data-toggle="modal" data-target="#defiBuzaarModal">Find Out More<i className="fa fa-angle-double-right" aria-hidden="true"></i></a>
                     </div>
                   </li>
                   <li id="proDefinirvana">
@@ -104,7 +104,7 @@ const Products = props => {
                         </div>
                       </div>
                       <p className="product-description">Healthcare payment on Definirvaana platform is helping to alleviate stress by deflating the existing expenditure, protecting patient data, and improving the overall experience.</p>
-                      <a href="javascript:void(0);" className="findmore-link">Find Out More<i className="fa fa-angle-double-right" aria-hidden="true"></i></a>
+                      <a href="javascript:void(0);" className="findmore-link" data-toggle="modal" data-target="#defiNirvaanaModal">Find Out More<i className="fa fa-angle-double-right" aria-hidden="true"></i></a>
                     </div>
                   </li>
                   <li id="proDefikampus">
@@ -119,7 +119,7 @@ const Products = props => {
                         </div>
                       </div>
                       <p className="product-description">FTT is partnering with educational institutions to enable payment of tuition, administrative costs, educational investment, offer scholarships in FTT, make school donations, with FTT instead of cash, all on the Defikampus portal. </p>
-                      <a href="javascript:void(0);" className="findmore-link">Find Out More<i className="fa fa-angle-double-right" aria-hidden="true"></i></a>
+                      <a href="javascript:void(0);" className="findmore-link" data-toggle="modal" data-target="#defiKampusModal">Find Out More<i className="fa fa-angle-double-right" aria-hidden="true"></i></a>
                     </div>
                   </li>
                   <li id="proDefiland">
@@ -134,7 +134,7 @@ const Products = props => {
                         </div>
                       </div>
                       <p className="product-description">Avoid any government intervention, forgery, or duplication during real-estate transactions. Buyers can even save on commissions. The process is extremely smooth at every step.</p>
-                      <a href="javascript:void(0);" className="findmore-link">Find Out More<i className="fa fa-angle-double-right" aria-hidden="true"></i></a>
+                      <a href="javascript:void(0);" className="findmore-link" data-toggle="modal" data-target="#defiLandscapeModal">Find Out More<i className="fa fa-angle-double-right" aria-hidden="true"></i></a>
                     </div>
                   </li>
                 </ol>
