@@ -8,7 +8,7 @@ const ContactUs = props => {
           <div className="container">
             <div className="section-title-md text-center wow fadeInUp" data-wow-delay="0.10s">
               <h3>Contact Us</h3>
-              <p>Get in touch with us</p>
+              <p>Have any questions or suggestions? Get in touch with us! Leave a comment and feedback on FTT and DEFItt as well.</p>
             </div>
             <div className="contact-card">
               <div className="contact-details wow fadeInRight" data-wow-delay="0.10s">
@@ -34,7 +34,7 @@ const ContactUs = props => {
                   <li>
                     <div className="cd-content">
                       <h4>Address</h4>
-                      <p>67 CAMP Road BUCKINGHAMSHIRE, SL97PF, United Kingdom</p>
+                      <p>67 Camp Road, Buckinghamshire, SL9 7PF, United Kingdom</p>
                     </div>
                     <div className="cd-icon">
                       <img src="theme-assets/images/cd-03.svg" className="img-fluid" alt=""/>
@@ -43,7 +43,7 @@ const ContactUs = props => {
                   <li>
                     <div className="cd-content">
                       <h4>Open Hours</h4>
-                      <p>24/7</p>
+                      <p>Sunday - Saturday</p><p>Open 24 hours</p>
                       {/* <p>Monday - Friday,<br/>9:00AM - 05:00PM</p> */}
                     </div>
                     <div className="cd-icon">
@@ -53,7 +53,7 @@ const ContactUs = props => {
                 </ul>
               </div>
               <div className="contact-form wow fadeInLeft" data-wow-delay="0.10s">
-                <h3 className="text-center">Write Us</h3>
+                <h3 className="text-center">Write to Us</h3>
                 <form>
                   <div className="row">
                     <div className="col-lg-6 col-md-6 col-sm-12 col-12">

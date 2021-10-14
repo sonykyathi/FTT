@@ -14,8 +14,8 @@ const ProductsModal = props => {
                             <div className="row">
                                 <div className="col-xl-5 col-lg-5 col-md-12 col-sm-12 col-12 d-flex align-content-center">
                                     <div className="feature-headings focus-arrow section-title-lg white ">
-                                    <h3>Defistartup Features</h3>
-                                    <p>Lets Bridge the gap</p>
+                                    <h3> DeFi Startup Features</h3>
+                                    <p>Bridge between investors and entrepreneurs </p>
                                     <button type="button" className="btn-style-sm btn-blue">Read More</button>
                                     <img src="theme-assets/images/focus-arrow.png" className="img-fluid focus-arrow-img" alt=""/>
                                     </div>
@@ -30,7 +30,7 @@ const ProductsModal = props => {
                                         <div className="feature-point-content">
                                             <h2 className="fp-count montserrat-font">01</h2>
                                             <h4 className="fp-title">Integrated Wallet</h4>
-                                            <p className="fp-description">Have a wallet already skip this<br/>step. or<a href="javascript:void(0);">Create an account here</a>.</p>
+                                            <p className="fp-description"><a href="javascript:void(0);">Create an FTT account here</a><br/>If you have a wallet already, you can skip this step.</p>
                                         </div>
                                         </li>
                                         <li className="feature-point">
@@ -40,7 +40,7 @@ const ProductsModal = props => {
                                         <div className="feature-point-content">
                                             <h2 className="fp-count montserrat-font">02</h2>
                                             <h4 className="fp-title">Mobile App</h4>
-                                            <p className="fp-description">Simply<a href="javascript:void(0);">Download </a>the mobile App to<br/>start selling and buying crypto assets</p>
+                                            <p className="fp-description">Simply<a href="javascript:void(0);">download  </a>the DeFi Startup mobile app <br/>to start buying and selling crypto.</p>
                                         </div>
                                         </li>
                                         <li className="feature-point">
@@ -50,7 +50,7 @@ const ProductsModal = props => {
                                         <div className="feature-point-content">
                                             <h2 className="fp-count montserrat-font">03</h2>
                                             <h4 className="fp-title">Two-factor Authentication</h4>
-                                            <p className="fp-description">Security with<a href="javascript:void(0);">Two-Factor Authentication</a><br/>to verify themselves.</p>
+                                            <p className="fp-description">For added security, enable two-factor authentication on your mobile.</p>
                                         </div>
                                         </li>
                                     </ul>
@@ -70,8 +70,8 @@ const ProductsModal = props => {
                             <div className="row">
                                 <div className="col-xl-5 col-lg-5 col-md-12 col-sm-12 col-12 d-flex align-content-center">
                                     <div className="feature-headings focus-arrow section-title-lg white ">
-                                    <h3>DfittPlay Features</h3>
-                                    <p>Lets make some noise together</p>
+                                    <h3>DFItt Play Features</h3>
+                                    <p>Play and earn with FTT</p>
                                     <button type="button" className="btn-style-sm btn-blue">Read More</button>
                                     <img src="theme-assets/images/focus-arrow.png" className="img-fluid focus-arrow-img" alt=""/>
                                     </div>
@@ -86,7 +86,7 @@ const ProductsModal = props => {
                                         <div className="feature-point-content">
                                             <h2 className="fp-count montserrat-font">01</h2>
                                             <h4 className="fp-title">Integrated Wallet</h4>
-                                            <p className="fp-description">Have a wallet already skip this<br/>step. or<a href="javascript:void(0);">Create an account here</a>.</p>
+                                            <p className="fp-description"><a href="javascript:void(0);">Create an FTT account here</a><br/>If you have a wallet already, you can skip this step.</p>
                                         </div>
                                         </li>
                                         <li className="feature-point">
@@ -96,7 +96,7 @@ const ProductsModal = props => {
                                         <div className="feature-point-content">
                                             <h2 className="fp-count montserrat-font">02</h2>
                                             <h4 className="fp-title">Mobile App</h4>
-                                            <p className="fp-description">Simply<a href="javascript:void(0);">Download </a>the mobile App to<br/>start selling and buying crypto assets</p>
+                                            <p className="fp-description">Simply<a href="javascript:void(0);">download  </a>the DeFi Startup mobile app <br/>to start buying and selling crypto.</p>
                                         </div>
                                         </li>
                                         <li className="feature-point">
@@ -106,7 +106,7 @@ const ProductsModal = props => {
                                         <div className="feature-point-content">
                                             <h2 className="fp-count montserrat-font">03</h2>
                                             <h4 className="fp-title">Two-factor Authentication</h4>
-                                            <p className="fp-description">Security with<a href="javascript:void(0);">Two-Factor Authentication</a><br/>to verify themselves.</p>
+                                            <p className="fp-description">For added security, enable two-factor authentication on your mobile.</p>
                                         </div>
                                         </li>
                                     </ul>
@@ -126,8 +126,8 @@ const ProductsModal = props => {
                             <div className="row">
                                 <div className="col-xl-5 col-lg-5 col-md-12 col-sm-12 col-12 d-flex align-content-center">
                                     <div className="feature-headings focus-arrow section-title-lg white ">
-                                    <h3>Defi Swipecard Features</h3>
-                                    <p>Its your one go need for cash anywhere on the planet earth</p>
+                                    <h3> DeFi Swipecard Features</h3>
+                                    <p>Spend your FTT conveniently</p>
                                     <button type="button" className="btn-style-sm btn-blue">Read More</button>
                                     <img src="theme-assets/images/focus-arrow.png" className="img-fluid focus-arrow-img" alt=""/>
                                     </div>
@@ -142,7 +142,7 @@ const ProductsModal = props => {
                                         <div className="feature-point-content">
                                             <h2 className="fp-count montserrat-font">01</h2>
                                             <h4 className="fp-title">Integrated Wallet</h4>
-                                            <p className="fp-description">Have a wallet already skip this<br/>step. or<a href="javascript:void(0);">Create an account here</a>.</p>
+                                            <p className="fp-description"><a href="javascript:void(0);">Create an FTT account here</a><br/>If you have a wallet already, you can skip this step.</p>
                                         </div>
                                         </li>
                                         <li className="feature-point">
@@ -152,7 +152,7 @@ const ProductsModal = props => {
                                         <div className="feature-point-content">
                                             <h2 className="fp-count montserrat-font">02</h2>
                                             <h4 className="fp-title">Mobile App</h4>
-                                            <p className="fp-description">Simply<a href="javascript:void(0);">Download </a>the mobile App to<br/>start selling and buying crypto assets</p>
+                                            <p className="fp-description">Simply<a href="javascript:void(0);">download  </a>the DeFi Startup mobile app <br/>to start buying and selling crypto.</p>
                                         </div>
                                         </li>
                                         <li className="feature-point">
@@ -162,7 +162,7 @@ const ProductsModal = props => {
                                         <div className="feature-point-content">
                                             <h2 className="fp-count montserrat-font">03</h2>
                                             <h4 className="fp-title">Two-factor Authentication</h4>
-                                            <p className="fp-description">Security with<a href="javascript:void(0);">Two-Factor Authentication</a><br/>to verify themselves.</p>
+                                            <p className="fp-description">For added security, enable two-factor authentication on your mobile.</p>
                                         </div>
                                         </li>
                                     </ul>
@@ -182,8 +182,8 @@ const ProductsModal = props => {
                             <div className="row">
                                 <div className="col-xl-5 col-lg-5 col-md-12 col-sm-12 col-12 d-flex align-content-center">
                                     <div className="feature-headings focus-arrow section-title-lg white ">
-                                    <h3>Defitradx Features</h3>
-                                    <p>Lets trade with the wise asset - FIT</p>
+                                    <h3>DeFi TradX Features</h3>
+                                    <p>A revolutionary crypto exchange</p>
                                     <button type="button" className="btn-style-sm btn-blue">Read More</button>
                                     <img src="theme-assets/images/focus-arrow.png" className="img-fluid focus-arrow-img" alt=""/>
                                     </div>
@@ -198,7 +198,7 @@ const ProductsModal = props => {
                                         <div className="feature-point-content">
                                             <h2 className="fp-count montserrat-font">01</h2>
                                             <h4 className="fp-title">Integrated Wallet</h4>
-                                            <p className="fp-description">Have a wallet already skip this<br/>step. or<a href="javascript:void(0);">Create an account here</a>.</p>
+                                            <p className="fp-description"><a href="javascript:void(0);">Create an FTT account here</a><br/>If you have a wallet already, you can skip this step.</p>
                                         </div>
                                         </li>
                                         <li className="feature-point">
@@ -208,7 +208,7 @@ const ProductsModal = props => {
                                         <div className="feature-point-content">
                                             <h2 className="fp-count montserrat-font">02</h2>
                                             <h4 className="fp-title">Mobile App</h4>
-                                            <p className="fp-description">Simply<a href="javascript:void(0);">Download </a>the mobile App to<br/>start selling and buying crypto assets</p>
+                                            <p className="fp-description">Simply<a href="javascript:void(0);">download  </a>the DeFi Startup mobile app <br/>to start buying and selling crypto.</p>
                                         </div>
                                         </li>
                                         <li className="feature-point">
@@ -218,7 +218,42 @@ const ProductsModal = props => {
                                         <div className="feature-point-content">
                                             <h2 className="fp-count montserrat-font">03</h2>
                                             <h4 className="fp-title">Two-factor Authentication</h4>
-                                            <p className="fp-description">Security with<a href="javascript:void(0);">Two-Factor Authentication</a><br/>to verify themselves.</p>
+                                            <p className="fp-description">For added security, enable two-factor authentication on your mobile.</p>
+                                        </div>
+                                        </li>
+                                    </ul>
+                                    </div>
+                                </div><div className="col-xl-7 col-lg-7 col-md-12 col-sm-12 col-12">
+                                    <div className="feature-points-list">
+                                    <ul>
+                                        <li className="feature-point">
+                                        <div className="feature-icon">
+                                            <img src="theme-assets/images/feature-icon-01.svg" className="img-fluid" alt=""/>
+                                        </div>
+                                        <div className="feature-point-content">
+                                            <h2 className="fp-count montserrat-font">01</h2>
+                                            <h4 className="fp-title">Integrated Wallet</h4>
+                                            <p className="fp-description"><a href="javascript:void(0);">Create an FTT account here</a><br/>If you have a wallet already, you can skip this step.</p>
+                                        </div>
+                                        </li>
+                                        <li className="feature-point">
+                                        <div className="feature-icon">
+                                            <img src="theme-assets/images/feature-icon-02.svg" className="img-fluid" alt=""/>
+                                        </div>
+                                        <div className="feature-point-content">
+                                            <h2 className="fp-count montserrat-font">02</h2>
+                                            <h4 className="fp-title">Mobile App</h4>
+                                            <p className="fp-description">Simply<a href="javascript:void(0);">download  </a>the DeFi Startup mobile app <br/>to start buying and selling crypto.</p>
+                                        </div>
+                                        </li>
+                                        <li className="feature-point">
+                                        <div className="feature-icon">
+                                            <img src="theme-assets/images/feature-icon-03.svg" className="img-fluid" alt=""/>
+                                        </div>
+                                        <div className="feature-point-content">
+                                            <h2 className="fp-count montserrat-font">03</h2>
+                                            <h4 className="fp-title">Two-factor Authentication</h4>
+                                            <p className="fp-description">For added security, enable two-factor authentication on your mobile.</p>
                                         </div>
                                         </li>
                                     </ul>
@@ -238,8 +273,8 @@ const ProductsModal = props => {
                             <div className="row">
                                 <div className="col-xl-5 col-lg-5 col-md-12 col-sm-12 col-12 d-flex align-content-center">
                                     <div className="feature-headings focus-arrow section-title-lg white ">
-                                    <h3>Defi Buzaar Features</h3>
-                                    <p>Shopping is now in your pocket</p>
+                                    <h3>DeFi Buzaar Features</h3>
+                                    <p>Fast and secure online shopping</p>
                                     <button type="button" className="btn-style-sm btn-blue">Read More</button>
                                     <img src="theme-assets/images/focus-arrow.png" className="img-fluid focus-arrow-img" alt=""/>
                                     </div>
@@ -254,7 +289,7 @@ const ProductsModal = props => {
                                         <div className="feature-point-content">
                                             <h2 className="fp-count montserrat-font">01</h2>
                                             <h4 className="fp-title">Integrated Wallet</h4>
-                                            <p className="fp-description">Have a wallet already skip this<br/>step. or<a href="javascript:void(0);">Create an account here</a>.</p>
+                                            <p className="fp-description"><a href="javascript:void(0);">Create an FTT account here</a><br/>If you have a wallet already, you can skip this step.</p>
                                         </div>
                                         </li>
                                         <li className="feature-point">
@@ -264,7 +299,7 @@ const ProductsModal = props => {
                                         <div className="feature-point-content">
                                             <h2 className="fp-count montserrat-font">02</h2>
                                             <h4 className="fp-title">Mobile App</h4>
-                                            <p className="fp-description">Simply<a href="javascript:void(0);">Download </a>the mobile App to<br/>start selling and buying crypto assets</p>
+                                            <p className="fp-description">Simply<a href="javascript:void(0);">download  </a>the DeFi Startup mobile app <br/>to start buying and selling crypto.</p>
                                         </div>
                                         </li>
                                         <li className="feature-point">
@@ -274,7 +309,7 @@ const ProductsModal = props => {
                                         <div className="feature-point-content">
                                             <h2 className="fp-count montserrat-font">03</h2>
                                             <h4 className="fp-title">Two-factor Authentication</h4>
-                                            <p className="fp-description">Security with<a href="javascript:void(0);">Two-Factor Authentication</a><br/>to verify themselves.</p>
+                                            <p className="fp-description">For added security, enable two-factor authentication on your mobile.</p>
                                         </div>
                                         </li>
                                     </ul>
@@ -294,8 +329,8 @@ const ProductsModal = props => {
                             <div className="row">
                                 <div className="col-xl-5 col-lg-5 col-md-12 col-sm-12 col-12 d-flex align-content-center">
                                     <div className="feature-headings focus-arrow section-title-lg white ">
-                                    <h3>Defi Nirvaana Features</h3>
-                                    <p>Your health is your wealth, use it wise with FTT</p>
+                                    <h3>DeFi Nirvaana Features</h3>
+                                    <p>Revolutionizing healthcare</p>
                                     <button type="button" className="btn-style-sm btn-blue">Read More</button>
                                     <img src="theme-assets/images/focus-arrow.png" className="img-fluid focus-arrow-img" alt=""/>
                                     </div>
@@ -310,7 +345,7 @@ const ProductsModal = props => {
                                         <div className="feature-point-content">
                                             <h2 className="fp-count montserrat-font">01</h2>
                                             <h4 className="fp-title">Integrated Wallet</h4>
-                                            <p className="fp-description">Have a wallet already skip this<br/>step. or<a href="javascript:void(0);">Create an account here</a>.</p>
+                                            <p className="fp-description"><a href="javascript:void(0);">Create an FTT account here</a><br/>If you have a wallet already, you can skip this step.</p>
                                         </div>
                                         </li>
                                         <li className="feature-point">
@@ -320,7 +355,7 @@ const ProductsModal = props => {
                                         <div className="feature-point-content">
                                             <h2 className="fp-count montserrat-font">02</h2>
                                             <h4 className="fp-title">Mobile App</h4>
-                                            <p className="fp-description">Simply<a href="javascript:void(0);">Download </a>the mobile App to<br/>start selling and buying crypto assets</p>
+                                            <p className="fp-description">Simply<a href="javascript:void(0);">download  </a>the DeFi Startup mobile app <br/>to start buying and selling crypto.</p>
                                         </div>
                                         </li>
                                         <li className="feature-point">
@@ -330,7 +365,7 @@ const ProductsModal = props => {
                                         <div className="feature-point-content">
                                             <h2 className="fp-count montserrat-font">03</h2>
                                             <h4 className="fp-title">Two-factor Authentication</h4>
-                                            <p className="fp-description">Security with<a href="javascript:void(0);">Two-Factor Authentication</a><br/>to verify themselves.</p>
+                                            <p className="fp-description">For added security, enable two-factor authentication on your mobile.</p>
                                         </div>
                                         </li>
                                     </ul>
@@ -350,8 +385,8 @@ const ProductsModal = props => {
                             <div className="row">
                                 <div className="col-xl-5 col-lg-5 col-md-12 col-sm-12 col-12 d-flex align-content-center">
                                     <div className="feature-headings focus-arrow section-title-lg white ">
-                                    <h3>Defi Kampus Features</h3>
-                                    <p>Let the future educate you with the technology</p>
+                                    <h3>DeFi Kampus Features</h3>
+                                    <p>A new approach to education</p>
                                     <button type="button" className="btn-style-sm btn-blue">Read More</button>
                                     <img src="theme-assets/images/focus-arrow.png" className="img-fluid focus-arrow-img" alt=""/>
                                     </div>
@@ -366,7 +401,7 @@ const ProductsModal = props => {
                                         <div className="feature-point-content">
                                             <h2 className="fp-count montserrat-font">01</h2>
                                             <h4 className="fp-title">Integrated Wallet</h4>
-                                            <p className="fp-description">Have a wallet already skip this<br/>step. or<a href="javascript:void(0);">Create an account here</a>.</p>
+                                            <p className="fp-description"><a href="javascript:void(0);">Create an FTT account here</a><br/>If you have a wallet already, you can skip this step.</p>
                                         </div>
                                         </li>
                                         <li className="feature-point">
@@ -376,7 +411,7 @@ const ProductsModal = props => {
                                         <div className="feature-point-content">
                                             <h2 className="fp-count montserrat-font">02</h2>
                                             <h4 className="fp-title">Mobile App</h4>
-                                            <p className="fp-description">Simply<a href="javascript:void(0);">Download </a>the mobile App to<br/>start selling and buying crypto assets</p>
+                                            <p className="fp-description">Simply<a href="javascript:void(0);">download  </a>the DeFi Startup mobile app <br/>to start buying and selling crypto.</p>
                                         </div>
                                         </li>
                                         <li className="feature-point">
@@ -386,7 +421,7 @@ const ProductsModal = props => {
                                         <div className="feature-point-content">
                                             <h2 className="fp-count montserrat-font">03</h2>
                                             <h4 className="fp-title">Two-factor Authentication</h4>
-                                            <p className="fp-description">Security with<a href="javascript:void(0);">Two-Factor Authentication</a><br/>to verify themselves.</p>
+                                            <p className="fp-description">For added security, enable two-factor authentication on your mobile.</p>
                                         </div>
                                         </li>
                                     </ul>
@@ -406,8 +441,8 @@ const ProductsModal = props => {
                             <div className="row">
                                 <div className="col-xl-5 col-lg-5 col-md-12 col-sm-12 col-12 d-flex align-content-center">
                                     <div className="feature-headings focus-arrow section-title-lg white ">
-                                    <h3>Defi Landscape Features</h3>
-                                    <p>Build your roof strong with base as FTT</p>
+                                    <h3>DeFi Landscapes Features</h3>
+                                    <p>Secure real estate purchases</p>
                                     <button type="button" className="btn-style-sm btn-blue">Read More</button>
                                     <img src="theme-assets/images/focus-arrow.png" className="img-fluid focus-arrow-img" alt=""/>
                                     </div>
@@ -422,7 +457,7 @@ const ProductsModal = props => {
                                         <div className="feature-point-content">
                                             <h2 className="fp-count montserrat-font">01</h2>
                                             <h4 className="fp-title">Integrated Wallet</h4>
-                                            <p className="fp-description">Have a wallet already skip this<br/>step. or<a href="javascript:void(0);">Create an account here</a>.</p>
+                                            <p className="fp-description"><a href="javascript:void(0);">Create an FTT account here</a><br/>If you have a wallet already, you can skip this step.</p>
                                         </div>
                                         </li>
                                         <li className="feature-point">
@@ -432,7 +467,7 @@ const ProductsModal = props => {
                                         <div className="feature-point-content">
                                             <h2 className="fp-count montserrat-font">02</h2>
                                             <h4 className="fp-title">Mobile App</h4>
-                                            <p className="fp-description">Simply<a href="javascript:void(0);">Download </a>the mobile App to<br/>start selling and buying crypto assets</p>
+                                            <p className="fp-description">Simply<a href="javascript:void(0);">download  </a>the DeFi Startup mobile app <br/>to start buying and selling crypto.</p>
                                         </div>
                                         </li>
                                         <li className="feature-point">
@@ -442,7 +477,7 @@ const ProductsModal = props => {
                                         <div className="feature-point-content">
                                             <h2 className="fp-count montserrat-font">03</h2>
                                             <h4 className="fp-title">Two-factor Authentication</h4>
-                                            <p className="fp-description">Security with<a href="javascript:void(0);">Two-Factor Authentication</a><br/>to verify themselves.</p>
+                                            <p className="fp-description">For added security, enable two-factor authentication on your mobile.</p>
                                         </div>
                                         </li>
                                     </ul>

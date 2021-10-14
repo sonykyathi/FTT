@@ -53,7 +53,7 @@ export default function Header() {
                     </li>
                     <li className="nav-item">
                       <a className="nav-link" href="/aboutus">
-                        About us
+                        About Us
                       </a>
                     </li>
                     <li className="nav-item">
@@ -118,7 +118,7 @@ export default function Header() {
                     </li>
                   </ul>
                   <div className="head-btn wow fadeInUp" data-wow-delay="0.65s">
-                    <a href="/login" className="btn-style-md btn-white-outline text-center">Sign in</a>
+                    <a href="/login" className="btn-style-md btn-white-outline text-center">Sign In</a>
                   </div>
                 </div>
               </nav>
@@ -134,14 +134,14 @@ export default function Header() {
                   data-wow-delay="0.10s"
                 >
                   <h2>Financial Tech Token</h2>
-                  <p>Realise the rewards of digital money</p>
-                  <p>Buy, sell, store, trade, transfer, earn & invest</p>
+                  <p>Digital money with attractive staking rewards.</p>
+                  <p>Buy, sell, trade, and earn tokens backed by US dollars.</p>
                   <div className="banner-buttons btn-inline">
                     <button type="button" className="btn-style-md btn-blue">
                       Buy Token
                     </button>
                     <button type="button" className="btn-style-md btn-white" onClick={downloadWhitePaper}>
-                      White Paper
+                    Whitepaper
                     </button>
                   </div>
                 </div>

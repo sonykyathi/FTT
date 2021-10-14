@@ -10,7 +10,7 @@ const Products = props => {
             <div className="our-product-content">
               <div className="section-title-md text-center wow fadeInUp" data-wow-delay="0.10s">
                 <h3>Our Products</h3>
-                <p>FTT leads a new era of financial freedom.</p>
+                <p>FTT is a cryptocurrency asset that unlocks access into a wide array of blockchain-based platforms and services. Welcome to a new era of financial freedom.</p>
               </div>
               <div className="product-cards-wrapper">
                 <ol id="productCard">
@@ -21,11 +21,11 @@ const Products = props => {
                           <img src="theme-assets/images/product-icon.svg" className="img-fluid" alt=""/>
                         </div>
                         <div className="product-name-salogan">
-                          <h4 className="product-name">Defistartup </h4>
-                          <p className="product-salogan">Creating a bridge between investors and entrepreneurs.</p>
+                          <h4 className="product-name">DeFi Startup </h4>
+                          <p className="product-salogan">Bridge between investors and entrepreneurs</p>
                         </div>
                       </div>
-                      <p className="product-description">Defistartup platform creates a match between investors and entrepreneurs seeking financing.  Entrepreneurs will upload their ideas and projects on the platform, we would validate and choose and hand them over to interested investors and create a bridge between them.</p>
+                      <p className="product-description">DeFi Startup provides a digital platform that connects investors with aspiring entrepreneurs seeking financing for their blockchain company. </p>
                       <a href="javascript:void(0);" className="findmore-link"data-toggle="modal" data-target="#defiStartUpModal">Find Out More<i className="fa fa-angle-double-right" aria-hidden="true"></i></a>
                     </div>
                   </li>
@@ -36,11 +36,11 @@ const Products = props => {
                           <img src="theme-assets/images/product-icon.svg" className="img-fluid" alt=""/>
                         </div>
                         <div className="product-name-salogan">
-                          <h4 className="product-name">DfittPlay</h4>
-                          <p className="product-salogan">Play & Earn with FTT</p>
+                          <h4 className="product-name">DFItt Play</h4>
+                          <p className="product-salogan">Play and earn with FTT</p>
                         </div>
                       </div>
-                      <p className="product-description">DfittPlay is a prominent game site offering blockchain games with welldesigned token economics. FTT is used for sign-ups, play, & earn.</p>
+                      <p className="product-description">DFItt Play is a gaming platform that offers blockchain-based games with well-designed token economics. FTT is used for sign-ups and play-to-earn.</p>
                       <a href="javascript:void(0);" className="findmore-link" data-toggle="modal" data-target="#defiPlayModal">Find Out More<i className="fa fa-angle-double-right" aria-hidden="true"></i></a>
                     </div>
                   </li>
@@ -51,12 +51,11 @@ const Products = props => {
                           <img src="theme-assets/images/product-icon.svg" className="img-fluid" alt=""/>
                         </div>
                         <div className="product-name-salogan">
-                          <h4 className="product-name">Defiswipecard</h4>
-                          <p className="product-salogan">Spend your FTT at your convenience</p>
+                          <h4 className="product-name"> DeFi Swipecard</h4>
+                          <p className="product-salogan">Spend your FTT conveniently</p>
                         </div>
                       </div>
-                      <p className="product-description">The Defiswipecard enables you to make everyday purchases while also
-                        enjoying higher spending limits at reduced transaction fees.
+                      <p className="product-description">DeFi Swipecard is a Visa debit card, allowing users to make daily purchases with a higher spending limit at reduced transaction fees.
                         </p>
                       <a href="javascript:void(0);" className="findmore-link"data-toggle="modal" data-target="#defiCardModal">Find Out More<i className="fa fa-angle-double-right" aria-hidden="true"></i></a>
                     </div>
@@ -68,12 +67,11 @@ const Products = props => {
                           <img src="theme-assets/images/product-icon.svg" className="img-fluid" alt=""/>
                         </div>
                         <div className="product-name-salogan">
-                          <h4 className="product-name">Defitradx</h4>
-                          <p className="product-salogan">A trusted exchange on the marketplace</p>
+                          <h4 className="product-name">DeFi TradX</h4>
+                          <p className="product-salogan">A revolutionary crypto exchange</p>
                         </div>
                       </div>
-                      <p className="product-description">Defitradx Exchange provides the best execution prices, exceptional
-                        customer service, attractive trading volumes, and outstanding liquidity.</p>
+                      <p className="product-description">DeFi TradX is a cryptocurrency exchange that provides an outstanding trading experience with low fees, high trading volume, and fast liquidity.</p>
                       <a href="javascript:void(0);" className="findmore-link" data-toggle="modal" data-target="#defiTradXModal">Find Out More<i className="fa fa-angle-double-right" aria-hidden="true"></i></a>
                     </div>
                   </li>
@@ -84,11 +82,11 @@ const Products = props => {
                           <img src="theme-assets/images/product-icon.svg" className="img-fluid" alt=""/>
                         </div>
                         <div className="product-name-salogan">
-                          <h4 className="product-name">Defibuzaar</h4>
-                          <p className="product-salogan">Quicker, secure & more direct online shopping</p>
+                          <h4 className="product-name">DeFi Buzaar</h4>
+                          <p className="product-salogan">Fast and secure online shopping</p>
                         </div>
                       </div>
-                      <p className="product-description">Defibuzaar is an e-commerce platform where consumers can make a purchase and pay with FTT.</p>
+                      <p className="product-description">DeFi Buzaar is an e-commerce platform that allows consumers to purchase items from partner merchants using FTT tokens as payment.</p>
                       <a href="javascript:void(0);" className="findmore-link" data-toggle="modal" data-target="#defiBuzaarModal">Find Out More<i className="fa fa-angle-double-right" aria-hidden="true"></i></a>
                     </div>
                   </li>
@@ -99,11 +97,11 @@ const Products = props => {
                           <img src="theme-assets/images/product-icon.svg" className="img-fluid" alt=""/>
                         </div>
                         <div className="product-name-salogan">
-                          <h4 className="product-name">Definirvaana</h4>
-                          <p className="product-salogan">Reviving the healthcare industry’s capabilities</p>
+                          <h4 className="product-name">DeFi Nirvaana</h4>
+                          <p className="product-salogan">Revolutionizing healthcare</p>
                         </div>
                       </div>
-                      <p className="product-description">Healthcare payment on Definirvaana platform is helping to alleviate stress by deflating the existing expenditure, protecting patient data, and improving the overall experience.</p>
+                      <p className="product-description">DeFi Nirvaana partners with healthcare institutions to enable clients to use cryptocurrency as payment and protect their data.</p>
                       <a href="javascript:void(0);" className="findmore-link" data-toggle="modal" data-target="#defiNirvaanaModal">Find Out More<i className="fa fa-angle-double-right" aria-hidden="true"></i></a>
                     </div>
                   </li>
@@ -114,11 +112,11 @@ const Products = props => {
                           <img src="theme-assets/images/product-icon.svg" className="img-fluid" alt=""/>
                         </div>
                         <div className="product-name-salogan">
-                          <h4 className="product-name">Defikampus</h4>
-                          <p className="product-salogan">A new payment solution for Schools</p>
+                          <h4 className="product-name">DeFi Kampus</h4>
+                          <p className="product-salogan">A new approach to education</p>
                         </div>
                       </div>
-                      <p className="product-description">FTT is partnering with educational institutions to enable payment of tuition, administrative costs, educational investment, offer scholarships in FTT, make school donations, with FTT instead of cash, all on the Defikampus portal. </p>
+                      <p className="product-description">DeFi Kampus partners with education institutions around the globe to use crypto for tuition costs and allow learners to obtain a degree. </p>
                       <a href="javascript:void(0);" className="findmore-link" data-toggle="modal" data-target="#defiKampusModal">Find Out More<i className="fa fa-angle-double-right" aria-hidden="true"></i></a>
                     </div>
                   </li>
@@ -129,11 +127,11 @@ const Products = props => {
                           <img src="theme-assets/images/product-icon.svg" className="img-fluid" alt=""/>
                         </div>
                         <div className="product-name-salogan">
-                          <h4 className="product-name">Defilandscapes</h4>
-                          <p className="product-salogan">Real-estate transactions have never been easier</p>
+                          <h4 className="product-name">DeFi Landscapes</h4>
+                          <p className="product-salogan">Secure real estate purchases</p>
                         </div>
                       </div>
-                      <p className="product-description">Avoid any government intervention, forgery, or duplication during real-estate transactions. Buyers can even save on commissions. The process is extremely smooth at every step.</p>
+                      <p className="product-description">DeFi Landscapes is a digital platform that provides seamless and secure real estate purchases using FTT token from anywhere in the world.</p>
                       <a href="javascript:void(0);" className="findmore-link" data-toggle="modal" data-target="#defiLandscapeModal">Find Out More<i className="fa fa-angle-double-right" aria-hidden="true"></i></a>
                     </div>
                   </li>

@@ -9,81 +9,81 @@ const RoadMap = props => {
             <div className="roadmap-content">
               <div className="section-title-md white text-center wow fadeInUp" data-wow-delay="0.10s">
                 <h3>Roadmap</h3>
-                <p>sed do eiusmod tempor incididunt ut labore</p>
+                <p>FTT token will be fully integrated into a number of DEFItt verticals, which will be launched one by one by the DEFItt team. Get to know each platform and use FTT to access all services.</p>
               </div>
               <div className="timeline-area">
                 <ol id="fttTimeline">
                   <li className="timeline-bullets"></li>
                   <li className="active">
-                    <h4 className="timeline-date">5th June, 2021</h4>
+                    <h4 className="timeline-date">June 5, 2021</h4>
                     <div className="timeline-check-circle"><i className="fa fa-check" aria-hidden="true"></i></div>
                     <div className="timeline-card">
                       <div className="timeline-card-logo"><img src="theme-assets/images/timeline/defi-play.png" className="img-fluid" alt=""/></div>
-                      <h3 className="timeline-card-title">Defittplay</h3>
-                      <p className="timeline-card-detail">Lets make some noise together.</p>
+                      <h3 className="timeline-card-title">DFItt Play</h3>
+                      <p className="timeline-card-detail">Play and earn with FTT</p>
                     </div>
                   </li>
                   <li>
-                    <h4 className="timeline-date">13th Oct, 2021</h4>
+                    <h4 className="timeline-date">Oct 13, 2021</h4>
                     <div className="timeline-check-circle"><i className="fa fa-check" aria-hidden="true"></i></div>
                     <div className="timeline-card">
                       <div className="timeline-card-logo"><img src="theme-assets/images/timeline/defi-startup.png" className="img-fluid" alt=""/></div>
-                      <h3 className="timeline-card-title">Defistartup</h3>
-                      <p className="timeline-card-detail">Lets Bridge the gap.</p>
+                      <h3 className="timeline-card-title">DeFi Startup </h3>
+                      <p className="timeline-card-detail">Bridge between investors and entrepreneurs</p>
                     </div>
                   </li>
                   <li>
-                    <h4 className="timeline-date">3rd Dec, 2021</h4>
+                    <h4 className="timeline-date">Dec 3, 2021</h4>
                     <div className="timeline-check-circle"><i className="fa fa-check" aria-hidden="true"></i></div>
                     <div className="timeline-card">
                       <div className="timeline-card-logo"><img src="theme-assets/images/timeline/defi-tradx.png" className="img-fluid" alt=""/></div>
-                      <h3 className="timeline-card-title">Defitradx</h3>
-                      <p className="timeline-card-detail">Lets trade with the wise asset - FIT.</p>
+                      <h3 className="timeline-card-title">DeFi TradX</h3>
+                      <p className="timeline-card-detail">A revolutionary crypto exchange</p>
                     </div>
                   </li>
                   <li>
-                    <h4 className="timeline-date">28th Dec, 2021</h4>
+                    <h4 className="timeline-date">Dec 28, 2021</h4>
                     <div className="timeline-check-circle"><i className="fa fa-check" aria-hidden="true"></i></div>
                     <div className="timeline-card">
                       <div className="timeline-card-logo"><img src="theme-assets/images/timeline/defi-kampus.png" className="img-fluid" alt=""/></div>
-                      <h3 className="timeline-card-title">Defi Kampus</h3>
-                      <p className="timeline-card-detail">Let the future educate you with the technology.</p>
+                      <h3 className="timeline-card-title">DeFi Kampus</h3>
+                      <p className="timeline-card-detail">A new approach to education</p>
                     </div>
                   </li>
                   <li>
-                    <h4 className="timeline-date">22nd Jan, 2022</h4>
+                    <h4 className="timeline-date">Jan 22, 2022</h4>
                     <div className="timeline-check-circle"><i className="fa fa-check" aria-hidden="true"></i></div>
                     <div className="timeline-card">
                       <div className="timeline-card-logo"><img src="theme-assets/images/timeline/defi-nirvaana.png" className="img-fluid" alt=""/></div>
-                      <h3 className="timeline-card-title">Defi Nirvaana</h3>
-                      <p className="timeline-card-detail">Your health is your wealth, use it wise with FTT.</p>
+                      <h3 className="timeline-card-title">DeFi Nirvaana</h3>
+                      <p className="timeline-card-detail">Revolutionizing healthcare</p>
                     </div>
                   </li>
                   <li>
-                    <h4 className="timeline-date">16th Feb, 2022</h4>
+                    <h4 className="timeline-date">Feb 16, 2022</h4>
                     <div className="timeline-check-circle"><i className="fa fa-check" aria-hidden="true"></i></div>
                     <div className="timeline-card">
                       <div className="timeline-card-logo"><img src="theme-assets/images/timeline/defi-landscape.png" className="img-fluid" alt=""/></div>
-                      <h3 className="timeline-card-title">Defi Landscape</h3>
-                      <p className="timeline-card-detail">Build your roof strong with base as FTT.</p>
+                      <h3 className="timeline-card-title">DeFi Landscapes</h3>
+                      <p className="timeline-card-detail">Secure real estate purchases</p>
                     </div>
                   </li>
                   <li>
-                    <h4 className="timeline-date">13th Mar, 2022</h4>
+                    <h4 className="timeline-date">Mar 13, 2022</h4>
                     <div className="timeline-check-circle"><i className="fa fa-check" aria-hidden="true"></i></div>
                     <div className="timeline-card">
                       <div className="timeline-card-logo"><img src="theme-assets/images/timeline/defi-buzaar.png" className="img-fluid" alt=""/></div>
-                      <h3 className="timeline-card-title">Defi Buzaar</h3>
-                      <p className="timeline-card-detail">Shopping is now in your pocket.</p>
+                      <h3 className="timeline-card-title">DeFi Buzaar</h3>
+                      <p className="timeline-card-detail">Fast and secure online shopping</p>
                     </div>
                   </li>
                   <li>
-                    <h4 className="timeline-date">7th April, 2022</h4>
+                    <h4 className="timeline-date">April 7, 2022</h4>
                     <div className="timeline-check-circle"><i className="fa fa-check" aria-hidden="true"></i></div>
                     <div className="timeline-card">
                       <div className="timeline-card-logo"><img src="theme-assets/images/timeline/defi-swipecard.png" className="img-fluid" alt=""/></div>
-                      <h3 className="timeline-card-title">Defi Swipecard</h3>
-                      <p className="timeline-card-detail">Its your one go need for cash anywhere on the planet earth.</p>
+                      <h3 className="timeline-card-title"> DeFi Swipecard</h3>
+                      <p className="timeline-card-detail">Spend your FTT conveniently</p>
                     </div>
                   </li>
                   <li className="timeline-bullets with-line"></li>
