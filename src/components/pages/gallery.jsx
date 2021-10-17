@@ -1,9 +1,48 @@
-import React from 'react'
+import React, { Fragment, useEffect, useState } from 'react';
 
 import HeaderNavbar from "../layout/headerNavbar";
 import Footer from "../layout/Footer";
-
+import axios from 'axios';
 export default function AboutusPage() {
+    const [state, setstate] = useState({ youtube: [], page:0, disabled:false })
+
+    useEffect(() => {
+      fetchVideos()
+    }, [])
+  
+  
+    const map = (data) => {
+      return 'https://www.youtube.com/embed/' + data.id.videoId
+    }
+  
+    const fetchVideos = async () => {
+      if (state.disabled) {
+        return false
+      }
+      let page = state.page + 10;
+      console.log(page, "===page")
+      setstate((prevState) => ({
+        ...prevState,
+        page,
+      }));
+  
+      const options = {
+        method: 'GET',
+        url: `https://www.googleapis.com/youtube/v3/search?key=AIzaSyCacQWll1bsha_0ivuzM8nThhvDK4EH6Mk&channelId=UC16kabwz_ayjbCX-ktl5-dQ&part=snippet,id&order=date&maxResults=${page}`
+      };
+      const result = await axios(options)
+      let data = result?.data?.items.map(map)
+      if (data.length < page) {
+        setstate((prevState) => ({
+          ...prevState,
+          disabled: true,
+        }));
+      }
+      setstate((prevState) => ({
+        ...prevState,
+        youtube: data
+      }));
+    }
     return (
         <React.Fragment>
             <HeaderNavbar/>
@@ -14,32 +53,27 @@ export default function AboutusPage() {
                             <h3>Social Gallery</h3>
                         </div>
                         <div className="gallery-post-list">
-                            <div className="row text-center">
-                                <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 wow fadeInUp" data-wow-delay="0.10s">
-                                    <a href="javascript:void(0);" className="gallery-thumbnail-card">
-                                        <img className="img-fluid gt-tag" src="https://qph.fs.quoracdn.net/main-qimg-4079c882451673a969ea7167d61bc7e1" alt=""/>
-                                    </a>
-                                </div>
-                               
-                                <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 wow fadeInUp" data-wow-delay="0.10s">
-                                    <a href="javascript:void(0);" className="gallery-thumbnail-card">
-                                        <iframe className="gt-tag" src="https://www.youtube.com/embed/Y94LNw5SUbM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
-                                    </a>
-                                </div>
-                               
-                                <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 wow fadeInUp" data-wow-delay="0.10s">
-                                    <a href="javascript:void(0);" className="gallery-thumbnail-card">
-                                        <iframe className="gt-tag" src="https://www.youtube.com/embed/LPyxG2uKGbk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
-                                    </a>
-                                </div>
-                                <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 wow fadeInUp" data-wow-delay="0.10s">
-                                    <a href="javascript:void(0);" className="gallery-thumbnail-card">
-                                        <iframe className="gt-tag" src="https://www.youtube.com/embed/SGkwNe6PHhM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
-                                    </a>
-                                </div>
-                               
-                            </div>
-                        </div>
+              <div className="row text-center">
+                {
+                  state.youtube.length > 0 &&
+                  state.youtube.map((val, key) => {
+                    return (
+                      <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 wow fadeInUp"  key={key}>
+                        <a href="javascript:void(0);" className="gallery-thumbnail-card">
+                          <iframe className="gt-tag" src={val} title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+                        </a>
+                      </div>
+                    )
+                  })
+                }
+
+               
+
+              </div>
+              <div className="about-btn" style={{textAlign:"center"}}>
+                <button class="btn btn-lg btn-gradient-purple btn-glow animated" disabled={state.disabled} onClick={fetchVideos}>Load More</button>
+                </div>
+            </div>
                     </div>
                 </div>
             </div>
