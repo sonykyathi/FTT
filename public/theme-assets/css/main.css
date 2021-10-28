@@ -495,7 +495,7 @@ button:focus, a:focus, button:hover, a:hover {
 }
 .banner-buttons button{
     display: inline-block;
-    vertical-align: top;
+    /* vertical-align: top; */
     margin-right: 20px;
 }
 .banner-buttons button:last-child{

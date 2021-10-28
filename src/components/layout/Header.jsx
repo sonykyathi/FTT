@@ -1,5 +1,5 @@
 import React from "react";
-import {downloadWhitePaper} from '../../utils';
+import { downloadWhitePaper } from "../../utils";
 
 export default function Header() {
   return (
@@ -77,14 +77,30 @@ export default function Header() {
                         class="dropdown-menu custom-dropdown-menu"
                         aria-labelledby="productDropdown"
                       >
-                        <a class="dropdown-item" href="#proDefistartup">defistartup</a>
-                        <a class="dropdown-item" href="#proDefiplay">defiplay</a>
-                        <a class="dropdown-item" href="#proDeficard">defiswipecard</a>
-                        <a class="dropdown-item" href="#proDefitradx">defitradx</a>
-                        <a class="dropdown-item" href="#proDefibuzaar">defibuzaar</a>
-                        <a class="dropdown-item" href="#proDefinirvana">definirvaana</a>
-                        <a class="dropdown-item" href="#proDefikampus">defikampus</a>
-                        <a class="dropdown-item" href="#proDefiland">defilandscapes</a>
+                        <a class="dropdown-item" href="#proDefistartup">
+                          defistartup
+                        </a>
+                        <a class="dropdown-item" href="#proDefiplay">
+                          defiplay
+                        </a>
+                        <a class="dropdown-item" href="#proDeficard">
+                          defiswipecard
+                        </a>
+                        <a class="dropdown-item" href="#proDefitradx">
+                          defitradx
+                        </a>
+                        <a class="dropdown-item" href="#proDefibuzaar">
+                          defibuzaar
+                        </a>
+                        <a class="dropdown-item" href="#proDefinirvana">
+                          definirvaana
+                        </a>
+                        <a class="dropdown-item" href="#proDefikampus">
+                          defikampus
+                        </a>
+                        <a class="dropdown-item" href="#proDefiland">
+                          defilandscapes
+                        </a>
                       </div>
                     </li>
                     <li className="nav-item dropdown">
@@ -103,7 +119,11 @@ export default function Header() {
                         class="dropdown-menu custom-dropdown-menu"
                         aria-labelledby="coinDropdown"
                       >
-                        <a class="dropdown-item" target="_blank" href="https://www.defitt.org/">
+                        <a
+                          class="dropdown-item"
+                          target="_blank"
+                          href="https://www.defitt.org/"
+                        >
                           DEFITT
                         </a>
                         <a class="dropdown-item" href="javascript:void(0);">
@@ -118,7 +138,13 @@ export default function Header() {
                     </li>
                   </ul>
                   <div className="head-btn wow fadeInUp" data-wow-delay="0.65s">
-                    <a href={process.env.REACT_APP_ADMIN_URL} target = "_blank" className="btn-style-md btn-white-outline text-center">Sign In</a>
+                    <a
+                      href={process.env.REACT_APP_ADMIN_URL}
+                      target="_blank"
+                      className="btn-style-md btn-white-outline text-center"
+                    >
+                      Sign In
+                    </a>
                   </div>
                 </div>
               </nav>
@@ -137,11 +163,22 @@ export default function Header() {
                   <p>Digital money with attractive staking rewards.</p>
                   <p>Buy, sell, trade, and earn tokens backed by US dollars.</p>
                   <div className="banner-buttons btn-inline">
-                    <button type="button" className="btn-style-md btn-blue">
-                      Buy Token
-                    </button>
-                    <button type="button" className="btn-style-md btn-white" onClick={downloadWhitePaper}>
-                    Whitepaper
+                    <a
+                      href={process.env.REACT_APP_ADMIN_URL}
+                      target="_blank"
+                      className="btn btn-lg btn-glow btn-gradient-blue"
+                    >
+                      <button type="button" className="btn-style-md btn-blue">
+                        Buy Token
+                      </button>
+                    </a>
+
+                    <button
+                      type="button"
+                      className="btn-style-md btn-white"
+                      onClick={downloadWhitePaper}
+                    >
+                      Whitepaper
                     </button>
                   </div>
                 </div>
