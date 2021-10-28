@@ -53,7 +53,7 @@ export default function HeaderNavbar() {
                             </li>
                             </ul>
                             <div className="head-btn wow fadeInUp" data-wow-delay="0.65s">
-                                <a href="/login" className="btn-style-md btn-white-outline text-center">Sign in</a>
+                                <a href={process.env.REACT_APP_ADMIN_URL} target = "_blank" className="btn-style-md btn-white-outline text-center">Sign in</a>
                             </div>
                         </div>
                         </nav>
